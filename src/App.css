@@ -1820,7 +1820,7 @@ border: 1px solid transparent;
 .numberscolors div:nth-child(2) {
   background-color: #FFBF3B;
   flex-grow: 1; /* Pour occuper tout l'espace vertical disponible */
-  height: calc(100% - 20px);
+height: 100%;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -1832,7 +1832,7 @@ border: 1px solid transparent;
 .numberscolors div:nth-child(3) {
   background-color: #FD6D79;
   flex-grow: 1; /* Pour occuper tout l'espace vertical disponible */
-  height: calc(100% - 20px);
+  height: 100%;
   margin-top: 20px;
   display: flex;
   justify-content: center;
