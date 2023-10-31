@@ -2517,7 +2517,7 @@ border-radius: 25px;
 padding:25px;
 margin:0px;
 position: relative;
-height: calc(100% - 100px);
+height: 72%;
 overflow: auto;
 scrollbar-width: thin; /* Largeur de la barre de défilement */
 scrollbar-color: dark gray #888; /* Couleurs de la barre de défilement */
@@ -2878,9 +2878,10 @@ margin-top: 20px;
                       margin-bottom: 25px;
                       border: 1px solid transparent;
                       display: flex;
-                      justify-content: space-between;
+                      justify-content: center;
                       align-items: center;
                       color: white;
+                      height: 5%;
                     }
 
                     .fastmenupro img{
@@ -2897,19 +2898,22 @@ margin-top: 20px;
                     }
 
 
-                    .fastmenupro span:nth-child(1){
-                      font-size: 15px;
-                      color: gray;
-                      font-family: 'Montserrat';
-                      font-style: italic;
-                    }
+                   
 
-                    .fastmenupro span:nth-child(2){
-                      font-size:20px;
-                      font-family: 'Poppins';
-                      font-weight: 500;
-                    }
 
+                    .fastmenupro div{
+                      width: 33%;
+                      text-align:left;
+                    }
+                    .fastmenupro div:nth-child(1){
+                      text-align:left;
+                    }
+                    .fastmenupro div:nth-child(2){
+                      text-align:center;
+                    }
+                    .fastmenupro div:nth-child(3){
+                      text-align:right;
+                    }
                    
                     /* Classe pour l'effet de fondu du bouton contactmenu */
 .contactmenu {
@@ -2930,4 +2934,16 @@ margin-top: 20px;
 
 .link-menu.hidden {
   opacity: 0; /* Opacité réduite pour cacher le lien */
+}
+
+.titlePropage{
+  font-size:18px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.majdatepro{
+  font-size:14px;
+  font-weight: 300;
+  color: grey;
 }

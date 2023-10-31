@@ -13,9 +13,13 @@ function Projects() {
   return (
     <div className="container-projects">
       <div className='fastmenupro'>
-        <span>Mise à jour le 29/09/2023</span>
-        <span>Mes Projets</span>
+        <div>
+        <span className='majdatepro'>Mise à jour le 29/09/2023</span>
+        </div><div>
+        <span className='titlePropage'>Mes Projets</span>
+        </div><div>
         <button onClick={toggleMenu}><img src='more.png' alt='navigation' /></button>
+        </div>
       </div>
       <div className='projects-bg'>
         <FilterableProjects />
