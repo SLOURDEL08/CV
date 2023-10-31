@@ -123,4 +123,14 @@ display: block;  }
   .fastmenu{
     margin-top: 25px;
   }
+  .title-about.scdabt{
+    font-size:10px;
+  }
+  .title-about.scdabt b{
+    font-size:18px
+  }
+  .infos-about div{
+    display: block;
+    text-align: left;
+  }
 }
