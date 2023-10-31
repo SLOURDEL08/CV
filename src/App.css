@@ -2220,6 +2220,8 @@ border: 1px solid transparent;  border-radius: 25px;  padding:25px;margin:0px;po
   cursor: pointer;
 }
 
+
+
 @keyframes colorTextAnim {
   0% {
 opacity: 0;  }
@@ -2907,3 +2909,25 @@ margin-top: 20px;
                       font-family: 'Poppins';
                       font-weight: 500;
                     }
+
+                   
+                    /* Classe pour l'effet de fondu du bouton contactmenu */
+.contactmenu {
+  transition: opacity 0.2s ease-in-out; /* Ajoute une transition pour l'opacité */
+  opacity: 1; /* Opacité par défaut */
+}
+
+.contactmenu.hidden {
+  opacity: 0; /* Opacité réduite pour cacher le bouton */
+}
+
+
+/* Classe pour l'effet de transition des liens */
+.link-menu {
+  transition: opacity 0.2s ease-in-out; /* Ajoute une transition pour l'opacité */
+  opacity: 1; /* Opacité par défaut */
+}
+
+.link-menu.hidden {
+  opacity: 0; /* Opacité réduite pour cacher le lien */
+}

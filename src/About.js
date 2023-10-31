@@ -9,6 +9,14 @@ function About() {
     setMenuOpen(!menuOpen); // Inverser l'état du menu
   };
 
+  function downloadPDF() {
+    // Créer un élément <a> pour le téléchargement
+    const link = document.createElement('a');
+    link.href = 'cv_lourdelsebastien2023.pdf'; // Mettez le chemin vers votre fichier PDF ici
+    link.download = 'cv_lourdelsebastien2023.pdf'; // Spécifiez le nom du fichier téléchargé
+    link.click();
+  }
+
   return (
     <div className="container-about">
       <div className='left-about'>
@@ -26,7 +34,7 @@ function About() {
           <p className='title-about scdabt'><b>Développeur web</b> Front-End React JS</p>
           <span>Développeur web front end React JS je suis passionné d'informatique, de design et de sport. J'ai commencé petit en découvrant la suite Adobe (Photoshop, AE, Illustrator..) et plus tard après une formation de développeur web je me suis lancé en auto-entreprise ce qui m'a permis de combiné mes compétences pour délivrer des maquettes, créations graphiques et site web. J'ai continuer à me former depuis 3 ans sur JS et React ainsi que le seo, le tracking, git.</span>
         <div className='flexbtn-secabout'>
-          <button>Télécharger mon CV pdf  &nbsp;&nbsp;👈</button><button>Mes projets</button>
+        <button onClick={downloadPDF}>Télécharger mon CV PDF &nbsp;&nbsp;👈</button><button>Mes projets</button>
         </div>
         </div>
         <div className='thirdrow-about'>
