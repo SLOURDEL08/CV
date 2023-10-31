@@ -65,9 +65,9 @@ const modalsData = {
     description: "Ma mission consistait à développer la page de présentation des travaux de l'architecte en utilisant le HTML fourni comme point de départ. Ensuite, ma seconde tâche était de créer la page de connexion de l'administrateur du site à partir de zéro. Enfin, concevoir une modale permettant d'uploader de nouveaux médias.",
     actions: ['Page de présentation', 'Page de connexion admin', 'CRUD', 'Filtre JS', 'Modal add/delete', 'Formulaire Ajout CRUD'  ],
     items: [
-      { image: 'react.webp', alt: 'SophieBluel Image 2', text: 'React JS' },
-      { image: 'swagger-logo.png', alt: 'SophieBluel Image 1', text: 'Swagger' },
-      { image: 'js.png', alt: 'SophieBluel Image 1', text: 'Swagger' },
+      { image: 'React.webp', alt: 'SophieBluel Image 2', text: 'React JS' },
+      { image: 'Swagger-logo.png', alt: 'SophieBluel Image 1', text: 'Swagger' },
+      { image: 'js.png', alt: 'SophieBluel Image 1', text: 'Javascript' },
     ],
   },
   
