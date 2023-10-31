@@ -63,7 +63,7 @@ function Portfolio () {
             </div>
             <div className='moreinfos'>
               <div><p className="labelinfos comple">Date de naissance :</p><p className="repinfos comple">08/08/1998</p></div>
-              <div><p className="labelinfos comple">Localisation :</p><div className='flex-response'><img className='flexresponse-img' src='/locali.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple">Arras</p></div></div>
+              <div><p className="labelinfos comple">Localisation :</p><div className='flex-response'><img className='flexresponse-img' src='locali.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple">Arras</p></div></div>
               <div><p className="labelinfos comple"></p><div className='flex-response'><img className='flexresponse-img' src='gmail.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple">Seb.lourdel8@gmail.com</p></div></div>
               <div><p className="labelinfos comple"></p><div className='flex-response flexresp'><img className='flexresponse-img' src='phonecall.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple">06.30.99.50.15</p></div></div>
             </div>

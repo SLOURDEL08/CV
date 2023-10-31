@@ -17,7 +17,7 @@ function About() {
           <div className='infos-about'>
             <p className='title-about'>LOURDEL Sébastien</p>
               <div><p className="lbl-about">Date de naissance :</p><p className="replbl-about">08/08/1998</p></div>
-              <div><p className="lbl-about">Localisation :</p><div className='replbl-about'><img className='flexresponse-img' src='/locali.png' alt='illustrations'/>&nbsp;&nbsp;<p className="replbl-about">Arras</p></div></div>
+              <div><p className="lbl-about">Localisation :</p><div className='replbl-about'><img className='flexresponse-img' src='locali.png' alt='illustrations'/>&nbsp;&nbsp;<p className="replbl-about">Arras</p></div></div>
               <div><p className="lbl-about">E-Mail :</p><div className='replbl-about'><img className='flexresponse-img' src='gmail.png' alt='illustrations'/>&nbsp;&nbsp;<p className="replbl-about">Seb.lourdel8@gmail.com</p></div></div>
               <div><p className="lbl-about">Téléphone :</p><div className='replbl-about'><img className='flexresponse-img' src='phonecall.png' alt='illustrations'/>&nbsp;&nbsp;<p className="replbl-about">06.30.99.50.15</p></div></div>
           </div>
