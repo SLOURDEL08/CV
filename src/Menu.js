@@ -25,13 +25,13 @@ function Menu({ toggleMenu }) {
       <img src='closem.png' className='iconclosemenu' alt='close button' />
     </button>
       <div>
-        <Link href='/portfolio'><p>ACCUEIL</p></Link>
+        <Link to='/portfolio'><p>ACCUEIL</p></Link>
       </div>
       <div>
-      <Link href='/about'><p>A PROPOS</p></Link>
+      <Link to='/about'><p>A PROPOS</p></Link>
       </div>
       <div>
-      <Link href='/portfolio'><p>MES PROJETS</p></Link>
+      <Link to='/portfolio'><p>MES PROJETS</p></Link>
       </div>
       <div>
         <button className='contactmenu'>Contactez moi &nbsp;👋</button>
