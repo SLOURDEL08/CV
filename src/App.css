@@ -2436,7 +2436,7 @@ display: block;}
 
 .title-about.scdabt{
   width:100%;text-align: left;
-  font-size:20px;
+  font-size:1.2vw;
   font-weight: 400;
   margin-bottom: 10px;
   font-style: italic;
@@ -2455,6 +2455,11 @@ font-size:13px;
 text-align:left;
 font-weight: 400;
 line-height: 1.5;
+-webkit-box-orient: vertical;
+	    -webkit-line-clamp: 6;
+		    display: -webkit-box;
+	    overflow: hidden;
+
 }
 
 
@@ -2479,7 +2484,7 @@ line-height: 1.5;
   align-items: center;
   justify-content: space-between;
   border-top: 1Px solid rgb(37, 37, 37);
-  padding: 4px 0px;
+  padding: 2px 0px;
 }
 
 .infos-about div:nth-child(2){

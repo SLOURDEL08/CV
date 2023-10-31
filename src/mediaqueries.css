@@ -107,4 +107,20 @@ display: block;  }
   .filter-buttons{
     margin-bottom: 25px;
   }
+
+  .container-about{
+    display: block;
+  }
+
+  .left-about{
+    width: 100%;
+  }
+
+  .right-about{
+    width: 100%;
+  }
+
+  .fastmenu{
+    margin-top: 25px;
+  }
 }
