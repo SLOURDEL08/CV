@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 import Modal from './Modal'; // Importez le composant Modal
 import Menu from './Menu'
@@ -122,7 +123,7 @@ function Portfolio () {
     <div className='bot-port'>
       <div className='botleft-port'>
         <div className='moreproject-container fade-in-top'>
-          <div className='flex-titlebox'><span>Projets Web</span><a href='/projects'><p>Voir Plus</p></a></div>
+          <div className='flex-titlebox'><span>Projets Web</span><Link to='/projects'><p>Voir Plus</p></Link></div>
           <div class="overimage-container">
           <div class="overimage">
         <img src="homegrim.png" alt="projet 3" class="overimage__img" />
@@ -179,7 +180,7 @@ function Portfolio () {
       </div>
       <div className='botright-port'>
       <div className='moreinfos-container fade-in-top'>
-      <div className='flex-titlebox'><span>A propos</span><a href='/about'><p>Découvrir</p></a></div>
+      <div className='flex-titlebox'><span>A propos</span><Link to='/about'><p>Découvrir</p></Link></div>
       <p className='aboutdesc p-limit-lines'>Développeur web front end React JS je suis passionné d'informatique, de design et de sport. J'ai commencé petit en découvrant la suite Adobe (Photoshop, AE, Illustrator..) et plus tard après une formation de développeur web je me suis lancé en auto-entreprise ce qui m'a permis de combiné mes compétences pour délivrer des maquettes, créations graphiques et site web. J'ai continuer à me former depuis 3 ans sur JS et React ainsi que le seo, le tracking, git.</p>
       </div>
       </div>
