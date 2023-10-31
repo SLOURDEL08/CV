@@ -91,7 +91,20 @@ display: block;  }
     font-size:12px;
   }
 
+  .menu-collapse p{
+    font-size:40px;
+  }
+
   .numberscolors b{
     font-size:40px
+  }
+  .item-project{
+    width: calc(50% - 25px);
+  }
+  .filter-buttons button{
+    margin-bottom: 0px;
+  }
+  .filter-buttons{
+    margin-bottom: 25px;
   }
 }
