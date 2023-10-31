@@ -85,3 +85,13 @@ display: block;  }
  
  
 }
+
+@media screen and (min-width: 200px) and (max-width: 450px) {
+  .numberscolors span{
+    font-size:12px;
+  }
+
+  .numberscolors b{
+    font-size:40px
+  }
+}
