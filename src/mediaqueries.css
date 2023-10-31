@@ -1,0 +1,44 @@
+@media screen and (max-width: 980px) {
+  .top-port {
+    display:block;
+    flex-grow:0;
+
+  }
+
+  .topleft-port{
+    width: 100%;
+  }
+  .hire{
+    font-size:17px
+  }
+
+  .numberscolors div{
+    padding: 20px;
+  }
+  .topright-port{
+    width: 100%;
+  }
+
+  .portfolio-container{
+    overflow: auto;
+display: block;  }
+
+  .App{
+    overflow: auto;
+  }
+}
+
+@media (max-height: 980px) {
+  .portfolio-container {
+    max-height: calc(100vh - 20px); /* Ajuste la hauteur du conteneur principal en fonction de la taille de l'écran */
+
+  }
+
+  .numberscolors div{
+    padding: 0px 0px;
+  }
+
+  .numberscolors{
+    margin-bottom: 25px;
+  }
+}

@@ -4,6 +4,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Projects from './Projects';
 import Menu from './Menu';
+import './mediaqueries.css';
 
 function App() {
   return (
