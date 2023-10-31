@@ -7,21 +7,12 @@ const FilterableProjects = () => {
 
   const projectData = [
     { id: 1, category: 'Frontend', image: 'homegrim.png', title: 'Mon Vieux Grimoire - Node JS', modalName: 'modalMVG' },
-    { id: 2, category: 'Backend', image: 'home-kasa.png', title: 'Projet Kasa - React JS', modalName: 'modalKasa' },
+    { id: 2, category: 'Backend', image: 'kasaprev.png', title: 'Projet Kasa - React JS', modalName: 'modalKasa' },
     { id: 3, category: 'WordPress', image: 'ninacardu.png', title: 'Toast Collectif - Sur mesure', modalName: 'modalNinaC' },
-    { id: 4, category: 'Frontend', image: 'booki.png', title: 'Booki - Html/css', modalName: 'modalBooki' },
-    { id: 5, category: 'Backend', image: 'sophieb.png', title: 'Sophie Bluel - Html/css/JS', modalName: 'modalSophieBluel' },
-    { id: 6, category: 'Frontend', image: 'ferrarihomepage.png', title: 'Ferrari Beverly - React JS', modalName: 'modalFerrari' },
-    { id: 7, category: 'WordPress', image: 'ninacardu.png', title: 'Toast Collectif - Sur mesure', modalName: 'modalNinaC' },
-    { id: 8, category: 'Frontend', image: 'booki.png', title: 'Booki - Html/css', modalName: 'modalBooki' },
-    { id: 9, category: 'Backend', image: 'sophieb.png', title: 'Sophie Bluel - Html/css/JS', modalName: 'modalSophieBluel' },
-    { id: 10, category: 'Frontend', image: 'ferrarihomepage.png', title: 'Ferrari Beverly - React JS', modalName: 'modalFerrari' },
-    { id: 11, category: 'Frontend', image: 'ferrarihomepage.png', title: 'Ferrari Beverly - React JS', modalName: 'modalFerrari' },
-    { id: 12, category: 'WordPress', image: 'ninacardu.png', title: 'Toast Collectif - Sur mesure', modalName: 'modalNinaC' },
-    { id: 13, category: 'Frontend', image: 'booki.png', title: 'Booki - Html/css', modalName: 'modalBooki' },
-    { id: 14, category: 'Backend', image: 'sophieb.png', title: 'Sophie Bluel - Html/css/JS', modalName: 'modalSophieBluel' },
-    { id: 15, category: 'Frontend', image: 'ferrarihomepage.png', title: 'Ferrari Beverly - React JS', modalName: 'modalFerrari' },
-
+    { id: 4, category: 'Frontend', image: 'bookiprev.png', title: 'Booki - Html/css', modalName: 'modalBooki' },
+    { id: 5, category: 'Backend', image: 'sophieprev.png', title: 'Sophie Bluel - Html/css/JS', modalName: 'modalSophieBluel' },
+    { id: 6, category: 'Frontend', image: 'ferrariprev.png', title: 'Ferrari Beverly - React JS', modalName: 'modalFerrari' },
+    { id: 7, category: 'Frontend', image: 'tesla.png', title: 'Tesla.com - React JS', modalName: 'modalFerrari' },
   ];
 
   const handleFilter = (category) => {

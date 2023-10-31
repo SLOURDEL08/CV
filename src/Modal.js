@@ -11,6 +11,7 @@ const modalsData = {
     imageIcon: 'eta.png',
     imageSrc: 'home-kasa.png',
     imageAlt: 'Projet Kasa',
+    linkProject: 'https://github.com/SLOURDEL08/KASA',
     description: "Ce projet implique la création du frontend de l'application en suivant les maquettes Figma, utiliser la logique de composant pour réutiliser plusieurs fois certaines fonctionnalités. Le backend n'étant pas développé un fichier JSON nous permet de géneré plusieurs logements en location et donc gérer l'intégration avec les futurs données.",
     actions: ['Développez le Front END', 'Gérer React router', 'Utilisez les components', 'Utilisez SASS', 'Intégrer le backend', 'Création Slider & Collapse', 'Responsive'],
     items: [
@@ -26,6 +27,7 @@ const modalsData = {
     imageSrc: 'ninacardu.png',
     imageIcon: 'photo.png',
     imageAlt: 'icone Nina Carducci',
+    linkProject: 'https://github.com/SLOURDEL08/NinaCarducci',
     description: "Mon intervention a consisté en une optimisation globale du site, englobant des améliorations des performances, du référencement, de l'accessibilité, et de la résolution de problèmes techniques. J'ai également intégré des éléments pour améliorer le référencement local, ainsi que des métadonnées pour optimiser le partage sur les réseaux sociaux.",
     actions: ['Optimisation globale du site et de la structure', 'Mise en place du référencement local Schema.org' , 'Ajout des métadonnées pour les réseaux sociaux' , "Modifications liées à l'accessibilité du site", 'Optimisation des images', 'Minification JS & CSS', 'Correction bug filtre et galerie JS', 'Rapport perfomances Avant / Après'],
     items: [
@@ -43,6 +45,7 @@ const modalsData = {
     imageSrc: 'homegrim.png',
     imageIcon: 'book.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
+    linkProject: 'https://github.com/SLOURDEL08/MonVieuxGrimoire',
     description: "La mission implique le développement du back-end d'un site web de notation de livres. Le projet comprend la création d'une API pour permettre aux utilisateurs d'ajouter des livres et de donner des notations, visibles par le public. Il est également nécessaire d'optimiser les images téléchargées par les utilisateurs, conformément aux principes du Green Code.",
     actions: ['Création du backend', 'Création API', 'Authentification', 'CRUD', 'Notation de livre', 'Optimisation Image'],
     items: [
@@ -58,13 +61,13 @@ const modalsData = {
     imageSrc: 'sophieb.png',
     imageIcon: 'home-kasa.png',
     imageAlt: 'Projet Kasa',
+    linkProject: 'https://github.com/SLOURDEL08/SophieBluel',
     description: "Ma mission consistait à développer la page de présentation des travaux de l'architecte en utilisant le HTML fourni comme point de départ. Ensuite, ma seconde tâche était de créer la page de connexion de l'administrateur du site à partir de zéro. Enfin, concevoir une modale permettant d'uploader de nouveaux médias.",
     actions: ['Page de présentation', 'Page de connexion admin', 'CRUD', 'Filtre JS', 'Modal add/delete', 'Formulaire Ajout CRUD'  ],
     items: [
       { image: 'react.webp', alt: 'SophieBluel Image 2', text: 'React JS' },
       { image: 'swagger-logo.png', alt: 'SophieBluel Image 1', text: 'Swagger' },
       { image: 'js.png', alt: 'SophieBluel Image 1', text: 'Swagger' },
-      // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
   
@@ -73,26 +76,26 @@ const modalsData = {
     imageSrc: 'booki.png',
     imageIcon: 'bookilock.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
+    linkProject: 'https://github.com/SLOURDEL08/BOOKI',
     description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
     actions: ['Développement Front End', 'Respect des maquettes', 'Responsive',],
     items: [
       { image: 'html-5.png', alt: 'optimisation', text: 'Html / css' },
       { image: 'figma.png', alt: 'optimisation', text: 'Figma' },
-      // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
 
   modalFerrari: {
     title: 'Ferrari Beverly',
     imageSrc: 'ferrarihomepage.png',
-    imageIcon: 'bookilock.png',
+    imageIcon: 'ferrari1.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
+    linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
     description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
     actions: ['Développement Front End', 'Respect des maquettes', 'Responsive',],
     items: [
       { image: 'html-5.png', alt: 'optimisation', text: 'Html / css' },
       { image: 'figma.png', alt: 'optimisation', text: 'Figma' },
-      // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
 
@@ -134,6 +137,9 @@ const Modal = ({ modalName, isOpen, onClose }) => {
         </div>
         <div className='imgillucontain'>
           <img src={modalData.imageSrc} alt={modalData.imageAlt} className='illuprojetweb'/>
+        </div>
+        <div className='linkprojects-cont'>
+          <a href={modalData.linkProject}><div><img src='github.png'/> Lien vers le projet</div></a>
         </div>
         <button className="close-button" onClick={onClose}><img src='fermerwhite.png' className='closer' alt='nina carducci'/></button>
       </div>

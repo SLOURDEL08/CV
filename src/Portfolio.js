@@ -69,9 +69,9 @@ function Portfolio () {
             <div className="infos imgdef"><div class="image-container">
                 <div className="overlist"></div>
                 <div className="overlist overight"></div>
-                    <div class="image-list">
+                <div class="image-list">
                       <div>
-                      <img src="uuhd.png" alt="logo wordpress"/>
+                      <img src="git.png" alt="logo wordpress"/>
                       </div>
                       <div>
                       <img src="js.png" alt="logo javascript"/>
@@ -83,7 +83,28 @@ function Portfolio () {
                       <img src="seo.png" alt="logo seo"/>
                       </div>
                       <div>
-                      <img src="uuhd.png" alt="logo git"/>
+                      <img src="git.png" alt="logo git"/>
+                      </div>
+                      <div>
+                      <img src="wp.png" alt="logo wordpress"/>
+                      </div>
+                      <div>
+                      <img src="photoshop.png" alt="logo javascript"/>
+                      </div>
+                      <div>
+                      <img src="figma.png" alt="logo wordpress"/>
+                      </div>
+                      <div>
+                      <img src="tagmanager.webp" alt="logo javascript"/>
+                      </div>
+                      <div>
+                      <img src="reactlogo.png" alt="logo tagmanager"/>
+                      </div>
+                      <div>
+                      <img src="seo.png" alt="logo seo"/>
+                      </div>
+                      <div>
+                      <img src="git.png" alt="logo git"/>
                       </div>
                       <div>
                       <img src="wp.png" alt="logo wordpress"/>
@@ -128,7 +149,7 @@ function Portfolio () {
       </div>
   
       <div class="overimage">
-        <img src="sophieb.png" alt="projet 3" class="overimage__img" />
+        <img src="sophieprev.png" alt="projet 3" class="overimage__img" />
         <div class="overimage__overlay">
           <h3
             className="overimage__title"
@@ -140,7 +161,7 @@ function Portfolio () {
       </div>
 
       <div class="overimage">
-        <img src="home-kasa.png" alt="projet 3" class="overimage__img" />
+        <img src="kasaprev.png" alt="projet 3" class="overimage__img" />
         <div class="overimage__overlay">
           <h3
             className="overimage__title"
@@ -159,7 +180,7 @@ function Portfolio () {
       <div className='botright-port'>
       <div className='moreinfos-container fade-in-top'>
       <div className='flex-titlebox'><span>A propos</span><a href='/about'><p>Découvrir</p></a></div>
-      <p className='aboutdesc p-limit-lines'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis, erat vel elementum congue, purus risus blandit ligula, eu fermentum ligula magna in leo. Cconsectetur adipiscing elit. In convallis, erat vel elementum congue, purus risus blandit ligula, eu fermentum ligula magna in leo,  Cconsectetur adipiscing elit.</p>
+      <p className='aboutdesc p-limit-lines'>Développeur web front end React JS je suis passionné d'informatique, de design et de sport. J'ai commencé petit en découvrant la suite Adobe (Photoshop, AE, Illustrator..) et plus tard après une formation de développeur web je me suis lancé en auto-entreprise ce qui m'a permis de combiné mes compétences pour délivrer des maquettes, créations graphiques et site web. J'ai continuer à me former depuis 3 ans sur JS et React ainsi que le seo, le tracking, git.</p>
       </div>
       </div>
 
