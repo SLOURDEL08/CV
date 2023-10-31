@@ -647,6 +647,13 @@ padding-bottom:15px
   color:rgba(255, 255, 255, 1);
 }
 
+.repinfos.comple.loc{
+  text-decoration: none!important;
+}
+
+.repinfos.comple.loc:hover{
+opacity: 1;}
+
 .labelinfos.comple{
   font-size:15px
 }
@@ -1779,6 +1786,10 @@ border: 1px solid transparent;
   flex-grow: 1; /* Pour occuper tout l'espace vertical du .top-port */
 }
 
+.numberscolors div{
+ flex:1
+}
+
 .numberscolors b{
   color:white;
   font-size:60px;
@@ -1792,7 +1803,7 @@ border: 1px solid transparent;
 
 .numberscolors span{
   color:white;
-  font-size:15px;
+  font-size:16px;
   font-weight:400;
   line-height: 1.2;
 }

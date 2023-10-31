@@ -31,7 +31,7 @@ function Menu({ toggleMenu }) {
       <Link to='/about'><p>A PROPOS</p></Link>
       </div>
       <div>
-      <Link to='/portfolio'><p>MES PROJETS</p></Link>
+      <Link to='/projects'><p>MES PROJETS</p></Link>
       </div>
       <div>
         <button className='contactmenu'>Contactez moi &nbsp;👋</button>

@@ -44,9 +44,9 @@ function Portfolio () {
           </div>
         </div>
         <div className='numberscolors'>
+          <div className='fade-in-top'><span><b>25</b><br />ans</span></div>
           <div className='fade-in-top'><span><b>+3</b><br />ans d'expériences</span></div>
-          <div className='fade-in-top'><span><b>+50</b><br />projets réalisées</span></div>
-          <div className='fade-in-top'><span><b>+20</b><br />projets indépendant</span></div>
+          <div className='fade-in-top'><span><b>+20</b><br />projets</span></div>
         </div>
       </div>
       <div className='topright-port'>
@@ -63,9 +63,9 @@ function Portfolio () {
             </div>
             <div className='moreinfos'>
               <div><p className="labelinfos comple">Date de naissance :</p><p className="repinfos comple">08/08/1998</p></div>
-              <div><p className="labelinfos comple">Localisation :</p><div className='flex-response'><img className='flexresponse-img' src='locali.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple">Arras</p></div></div>
-              <div><p className="labelinfos comple"></p><div className='flex-response'><img className='flexresponse-img' src='gmail.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple">Seb.lourdel8@gmail.com</p></div></div>
-              <div><p className="labelinfos comple"></p><div className='flex-response flexresp'><img className='flexresponse-img' src='phonecall.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple">06.30.99.50.15</p></div></div>
+              <div><p className="labelinfos comple">Localisation :</p><div className='flex-response'><img className='flexresponse-img' src='locali.png' alt='illustrations'/>&nbsp;&nbsp;<p className="repinfos comple loc">Arras</p></div></div>
+              <div><p className="labelinfos comple"></p><div className='flex-response'><img className='flexresponse-img' src='gmail.png' alt='illustrations'/>&nbsp;&nbsp;<Link to='mailto:seb.lourdel8@gmail.com'><p className="repinfos comple">Seb.lourdel8@gmail.com</p></Link></div></div>
+              <div><p className="labelinfos comple"></p><div className='flex-response flexresp'><img className='flexresponse-img' src='phonecall.png' alt='illustrations'/>&nbsp;&nbsp;<Link to='tel:0630995015'><p className="repinfos comple">06.30.99.50.15</p></Link></div></div>
             </div>
             <div className="infos imgdef"><div class="image-container">
                 <div className="overlist"></div>
