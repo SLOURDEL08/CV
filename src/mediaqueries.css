@@ -40,6 +40,20 @@ display: block;  }
   .numberscolors span{
     padding: 30px 0px;
   }
+
+  .bot-port{
+    display: block;
+  }
+
+  .botleft-port{
+    width: 100%;
+  }
+
+  .botright-port{
+    width: 100%;
+    margin-top: 25px;
+  }
+
 }
 
 @media (max-height: 200px) and (max-width: 980px) {
