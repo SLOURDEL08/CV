@@ -94,8 +94,8 @@ const modalsData = {
     description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
     actions: ['Développement Front End', 'Respect des maquettes', 'Responsive',],
     items: [
-      { image: 'html-5.png', alt: 'optimisation', text: 'Html / css' },
-      { image: 'figma.png', alt: 'optimisation', text: 'Figma' },
+      { image: 'React.webp', alt: 'optimisation', text: 'Html / css' },
+      { image: 'js.png', alt: 'optimisation', text: 'Figma' },
     ],
   },
 
