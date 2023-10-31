@@ -38,7 +38,8 @@ function Portfolio () {
     <div className='top-port'>
       <div className='topleft-port'>
         <div className='welcomecv fade-in-top'>
-          <h1>Bienvenue sur mon <br /><b>Portfolio</b> en ligne</h1>
+          <h1 className='desktitleport'>Bienvenue sur mon <b>Portfolio</b> en ligne</h1>
+          <h1 className='mobtitleport'>Bienvenue sur mon <br /><b>Portfolio</b> en ligne</h1>
           <div>
             <span>Mis à jour le : 10/10/2023</span><button className='hire'>Contactez moi 👋</button>
           </div>

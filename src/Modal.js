@@ -92,7 +92,7 @@ const modalsData = {
     imageAlt: 'Projet Mon Vieux Grimoire',
     linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
     description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
-    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive',],
+    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive','Slider','SplitScreenSlide'],
     items: [
       { image: 'React.webp', alt: 'optimisation', text: 'Html / css' },
       { image: 'js.png', alt: 'optimisation', text: 'Figma' },
