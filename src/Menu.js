@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Menu({ toggleMenu }) {
   const [menuOpen, setMenuOpen] = useState(true);
@@ -24,13 +25,13 @@ function Menu({ toggleMenu }) {
       <img src='closem.png' className='iconclosemenu' alt='close button' />
     </button>
       <div>
-        <a href='/portfolio'><p>ACCUEIL</p></a>
+        <Link href='/portfolio'><p>ACCUEIL</p></Link>
       </div>
       <div>
-      <a href='/about'><p>A PROPOS</p></a>
+      <Link href='/about'><p>A PROPOS</p></Link>
       </div>
       <div>
-      <a href='/portfolio'><p>MES PROJETS</p></a>
+      <Link href='/portfolio'><p>MES PROJETS</p></Link>
       </div>
       <div>
         <button className='contactmenu'>Contactez moi &nbsp;👋</button>

@@ -1,5 +1,5 @@
-import './App.css';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import About from './About';
 import Portfolio from './Portfolio';
 import Projects from './Projects';
@@ -14,6 +14,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/" element={<Navigate to="/portfolio" />} />
         </Routes>
       </div>
     </Router>
