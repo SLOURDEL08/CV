@@ -133,4 +133,34 @@ display: block;  }
     display: block;
     text-align: left;
   }
+
+  .cont-mod{
+    display: block;
+  }
+
+  .titlemodal{
+    width: 100%;
+  }
+
+  .titlemodalresp{
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .desc-project{
+    display: block;
+  }
+
+  .desc-project div:nth-child(1){
+    width: auto;
+  }
+
+  .desc-project div:nth-child(2){
+    width: auto;
+    margin-top: 25px;
+  }
+  .linkprojects-cont div{
+    font-size:15px
+  }
 }
+
