@@ -162,5 +162,25 @@ display: block;  }
   .linkprojects-cont div{
     font-size:15px
   }
+
+  .welcomecv span{
+    text-align: left;
+  }
+
+  .hire{
+    font-size: 15px;
+    width: 200px;
+    padding: 10px 0px;
+  }
+
+  .name{
+    display: block;
+    text-align: left;
+  }
+
+  .moreinfos div{
+    display: block;
+    text-align: left;
+  }
 }
 
