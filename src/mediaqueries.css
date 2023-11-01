@@ -182,5 +182,13 @@ display: block;  }
     display: block;
     text-align: left;
   }
+
+  .labelinfos.comple{
+    font-size:12px;
+  }
+
+  .repinfos.comple{
+    font-size:13px;
+  }
 }
 
