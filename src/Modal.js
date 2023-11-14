@@ -103,7 +103,7 @@ const modalsData = {
   modalTest: {
     title: 'Digitalizerr',
     imageSrc: 'digitalizerrhome.png',
-    imageIcon: 'ferrari1.png',
+    imageIcon: 'digitalizerricon.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
     linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
     description: "J'ai tenté de développer une maquette de site web de A à Z pour une agence marketing web. J'ai réalisé la maquette sur figma et j'ai développé la maquette sur reactjs pour pouvoir réutiliser des composants.",
