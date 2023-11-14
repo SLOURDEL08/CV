@@ -100,7 +100,37 @@ const modalsData = {
     ],
   },
 
-  modalTest: {
+  modalToast: {
+    title: 'Toast Collectif',
+    imageSrc: 'toast.png',
+    imageIcon: 'ferrari1.png',
+    imageAlt: 'Projet Mon Vieux Grimoire',
+    linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
+    description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
+    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive','Slider','SplitScreenSlide'],
+    items: [
+      { image: 'React.webp', alt: 'optimisation', text: 'Html / css' },
+      { image: 'js.png', alt: 'optimisation', text: 'Figma' },
+      { image: 'html-5.png', alt: 'optimisation', text: 'Figma' },
+    ],
+  },
+
+  modalTesla: {
+    title: 'Ferrari Beverly',
+    imageSrc: 'ferrarihomepage.png',
+    imageIcon: 'ferrari1.png',
+    imageAlt: 'Projet Mon Vieux Grimoire',
+    linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
+    description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
+    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive','Slider','SplitScreenSlide'],
+    items: [
+      { image: 'React.webp', alt: 'optimisation', text: 'Html / css' },
+      { image: 'js.png', alt: 'optimisation', text: 'Figma' },
+      { image: 'html-5.png', alt: 'optimisation', text: 'Figma' },
+    ],
+  },
+
+  modalDigit: {
     title: 'Digitalizerr',
     imageSrc: 'digitalizerrhome.png',
     imageIcon: 'digitalizerricon.png',
