@@ -145,6 +145,20 @@ const modalsData = {
     ],
   },
 
+  modalCouvreT: {
+    title: 'Couvretanche',
+    imageSrc: 'couvretanche-homepage.png',
+    imageIcon: 'digitalizerricon.png',
+    imageAlt: 'Projet Mon Vieux Grimoire',
+    description: "J'ai tenté de développer une maquette de site web de A à Z pour une agence marketing web. J'ai réalisé la maquette sur figma et j'ai développé la maquette sur reactjs pour pouvoir réutiliser des composants.",
+    actions: ['Respect de la structure', 'SEO', 'Responsive','Mega menu','Formulaire de contact personnalisé'],
+    items: [
+      { image: 'wp.png', alt: 'optimisation', text: 'Html / css' },
+      { image: 'html-5.png', alt: 'optimisation', text: 'Figma' },
+      { image: 'seo.png', alt: 'optimisation', text: 'Figma' },
+    ],
+  },
+
 };
 
 
