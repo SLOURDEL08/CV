@@ -14,8 +14,8 @@ const FilterableProjects = () => {
     { id: 6, category: 'Frontend', image: 'ferrari-filter.webp', title: 'Ferrari Beverly - React JS', modalName: 'modalFerrari' },
     { id: 7, category: 'Frontend', image: 'tesla-filter.webp', title: 'Tesla.com - React JS', modalName: 'modalTesla' },
     { id: 8, category: 'Frontend', image: 'digitalizerr-filter.webp', title: 'Digitalizerr - React/html/css/js', modalName: 'modalDigit' },
-    { id: 9, category: 'Wordpress', image: 'toast-filter.webp', title: 'Toast Collectif - Wordpress / js', modalName: 'modalToast' },
-    { id: 10, category: 'Wordpress', image: 'couvretanche-filter.webp', title: 'Couvretanche - Wordpress', modalName: 'modalCouvreT' },
+    { id: 9, category: 'WordPress', image: 'toast-filter.webp', title: 'Toast Collectif - Wordpress / js', modalName: 'modalToast' },
+    { id: 10, category: 'WordPress', image: 'couvretanche-filter.webp', title: 'Couvretanche - Wordpress', modalName: 'modalCouvreT' },
   ];
 
   const handleFilter = (category) => {
