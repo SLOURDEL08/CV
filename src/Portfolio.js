@@ -139,7 +139,7 @@ function Portfolio () {
       </div>
   
       <div class="overimage">
-        <img src="ninacardu.png" alt="projet 3" class="overimage__img" />
+        <img src="ninaprev.png" alt="projet 3" class="overimage__img" />
         <div class="overimage__overlay">
           <h3
             className="overimage__title"
