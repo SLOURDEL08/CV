@@ -127,7 +127,7 @@ function Portfolio () {
           <div className='flex-titlebox'><span>Projets Web</span><Link to='/projects'><p>Voir Plus</p></Link></div>
           <div class="overimage-container">
           <div class="overimage">
-        <img src="homegrim.png" alt="projet 3" class="overimage__img" loading='lazy'/>
+        <img src="grimoire-filter.webp" alt="projet 3" class="overimage__img" loading='lazy'/>
         <div class="overimage__overlay">
           <h3
             className="overimage__title"
@@ -139,7 +139,7 @@ function Portfolio () {
       </div>
   
       <div class="overimage">
-        <img src="ninaprev.png" alt="projet 3" class="overimage__img" loading='lazy'/>
+        <img src="nina-filter.webp" alt="projet 3" class="overimage__img" loading='lazy'/>
         <div class="overimage__overlay">
           <h3
             className="overimage__title"
@@ -151,7 +151,7 @@ function Portfolio () {
       </div>
   
       <div class="overimage">
-        <img src="sophieprev.png" alt="projet 3" class="overimage__img" loading='lazy'/>
+        <img src="sophie-filter.webp" alt="projet 3" class="overimage__img" loading='lazy'/>
         <div class="overimage__overlay">
           <h3
             className="overimage__title"
@@ -163,7 +163,7 @@ function Portfolio () {
       </div>
 
       <div class="overimage">
-        <img src="kasaprev.png" alt="projet 3" class="overimage__img"  loading='lazy'/>
+        <img src="kasa-filter.webp" alt="projet 3" class="overimage__img"  loading='lazy'/>
         <div class="overimage__overlay">
           <h3
             className="overimage__title"
