@@ -182,10 +182,10 @@ const Modal = ({ modalName, isOpen, onClose }) => {
           </div>
         </div>
         <div className='imgillucontain'>
-          <img src={modalData.imageSrc} alt={modalData.imageAlt} className='illuprojetweb'/>
+          <img src={modalData.imageSrc} alt={modalData.imageAlt} className='illuprojetweb' loading='lazy'/>
         </div>
         <div className='linkprojects-cont'>
-          <a href={modalData.linkProject}><div><img src='github.png'/> Lien vers le projet</div></a>
+          <a href={modalData.linkProject}><div><img src='github.png' alt='github icon'/> Lien vers le projet</div></a>
         </div>
         <button className="close-button" onClick={onClose}><img src='fermerwhite.png' className='closer' alt='nina carducci'/></button>
       </div>
