@@ -91,8 +91,8 @@ const modalsData = {
     imageIcon: 'ferrari1.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
     linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
-    description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
-    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive','Slider','SplitScreenSlide'],
+    description: "Le défi était de pouvoir récréer la homepage du site ferraribeverlyhills.com, je voulais me tester lors de ma formation j'ai donc réalisé cette page d'accueil avec les fonctionnalités et le responsive. ",
+    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive','Slider','SplitScreenSlide', 'Carousel'],
     items: [
       { image: 'React.webp', alt: 'optimisation', text: 'Html / css' },
       { image: 'js.png', alt: 'optimisation', text: 'Figma' },
@@ -106,8 +106,8 @@ const modalsData = {
     imageIcon: 'ferrari1.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
     linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
-    description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
-    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive','Slider','SplitScreenSlide'],
+    description: "Développement sur-mesure d'un site web vitrine pour une agence de marketing sur Wordpress. Il s'agit d'une homepage complète avec présenation des chiffres, offres, l'équipe et le footer avec la newsletter. Création de fonctionnalités de défilement, lightbox sur-mesure et autres.",
+    actions: ['Mise en page', 'Design agency', 'Lightbox perso','Responsive','Arborescence'],
     items: [
       { image: 'wp.png', alt: 'optimisation', text: 'Html / css' },
       { image: 'js.png', alt: 'optimisation', text: 'Figma' },
@@ -121,8 +121,8 @@ const modalsData = {
     imageIcon: 'ferrari1.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
     linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
-    description: "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
-    actions: ['Développement Front End', 'Respect des maquettes', 'Responsive','Slider','SplitScreenSlide'],
+    description: "Développement de la page d'accueil du site tesla.com qui reprend une mise en page spécial avec plusieurs section qui défilent progessivement les unes après les autres au scroll.",
+    actions: ['Développement Front End', 'Scroll section', 'Responsive','Modal menu','Sous menu'],
     items: [
       { image: 'React.webp', alt: 'optimisation', text: 'Html / css' },
       { image: 'js.png', alt: 'optimisation', text: 'Figma' },
