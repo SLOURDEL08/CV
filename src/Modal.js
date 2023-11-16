@@ -147,6 +147,8 @@ const modalsData = {
 
 };
 
+
+
 const Modal = ({ modalName, isOpen, onClose }) => {
   if (!isOpen) return null;
 
@@ -167,7 +169,7 @@ const Modal = ({ modalName, isOpen, onClose }) => {
           <span className='titlemodalresp'>{modalData.title}</span>
           <img src={modalData.imageIcon} alt={modalData.imageAlt} className='imgtitlemodal' />
         </div>
-        <ScrollAuto items={modalData.items} /> {/* Utilisez modalData.items au lieu de items */}
+        <ScrollAuto items={modalData.items} />
         <div className='desc-project'>
           <div>
             <p className='descontext'>{modalData.description}</p>
