@@ -13,8 +13,8 @@ const FilterableProjects = () => {
     { id: 5, category: 'Frontend', image: 'sophieprev.png', title: 'Sophie Bluel - Html/css/JS', modalName: 'modalSophieBluel' },
     { id: 6, category: 'Frontend', image: 'ferrariprev.png', title: 'Ferrari Beverly - React JS', modalName: 'modalFerrari' },
     { id: 7, category: 'Frontend', image: 'tesla.png', title: 'Tesla.com - React JS', modalName: 'modalTesla' },
-    { id: 8, category: 'Frontend', image: 'digitalizerrhome.png', title: 'Digitalizerr - React/html/css/js', modalName: 'modalDigit' },
-    { id: 8, category: 'Wordpress', image: 'toast.png', title: 'Toast Collectif - Wordpress / js', modalName: 'modalToast' },
+    { id: 8, category: 'Frontend', image: 'homescddigi.png', title: 'Digitalizerr - React/html/css/js', modalName: 'modalDigit' },
+    { id: 8, category: 'Wordpress', image: 'toasthome.png', title: 'Toast Collectif - Wordpress / js', modalName: 'modalToast' },
   ];
 
   const handleFilter = (category) => {
