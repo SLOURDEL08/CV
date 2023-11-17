@@ -98,6 +98,10 @@ display: block;  }
     display: none;
   }
 
+  .overimage{
+    width: 50%;
+  }
+
   .menu-collapse p{
     font-size:40px;
   }
