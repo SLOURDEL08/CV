@@ -102,6 +102,10 @@ display: block;  }
     width: 50%;
   }
 
+  .image-list {
+    animation: scrollImages 5s linear infinite;
+  }
+
   .menu-collapse p{
     font-size:40px;
   }
