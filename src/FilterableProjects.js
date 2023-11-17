@@ -16,7 +16,7 @@ const FilterableProjects = () => {
     { id: 8, category: 'Frontend', image: 'digitalizerr-filter.webp', title: 'Digitalizerr - React/html/css/js', modalName: 'modalDigit' },
     { id: 9, category: 'WordPress', image: 'toast-filter.webp', title: 'Toast Collectif - Wordpress / js', modalName: 'modalToast' },
     { id: 10, category: 'WordPress', image: 'couvretanche-filter.webp', title: 'Couvretanche - Wordpress', modalName: 'modalCouvreT' },
-    { id: 11, category: 'WordPress', image: 'couvretanche-filter.webp', title: 'Couvretanche - Wordpress', modalName: 'modalCouvreT' },
+    { id: 11, category: 'WordPress', image: 'abc-filter.webp', title: 'ABC Renov 06 - Wordpress', modalName: 'modalABC' },
   ];
 
   const handleFilter = (category) => {
