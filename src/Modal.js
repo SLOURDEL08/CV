@@ -103,9 +103,9 @@ const modalsData = {
   modalToast: {
     title: 'Toast Collectif',
     imageSrc: 'toast.png',
-    imageIcon: 'ferrari1.png',
-    imageAlt: 'Projet Mon Vieux Grimoire',
-    linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
+    imageIcon: 'toastlogo.png',
+    imageAlt: 'Projet ToastCollectif',
+    linkProject: '',
     description: "Développement sur-mesure d'un site web vitrine pour une agence de marketing sur Wordpress. Il s'agit d'une homepage complète avec présenation des chiffres, offres, l'équipe et le footer avec la newsletter. Création de fonctionnalités de défilement, lightbox sur-mesure et autres.",
     actions: ['Mise en page', 'Design agency', 'Lightbox perso','Responsive','Arborescence'],
     items: [
@@ -116,11 +116,11 @@ const modalsData = {
   },
 
   modalTesla: {
-    title: 'Ferrari Beverly',
-    imageSrc: 'ferrarihomepage.png',
-    imageIcon: 'ferrari1.png',
-    imageAlt: 'Projet Mon Vieux Grimoire',
-    linkProject: 'https://github.com/SLOURDEL08/FerrariBeverly',
+    title: 'Tesla HomePage',
+    imageSrc: 'tesla.png',
+    imageIcon: 'teslalogo.png',
+    imageAlt: 'Projet Tesla HomePage',
+    linkProject: '',
     description: "Développement de la page d'accueil du site tesla.com qui reprend une mise en page spécial avec plusieurs section qui défilent progessivement les unes après les autres au scroll.",
     actions: ['Développement Front End', 'Scroll section', 'Responsive','Modal menu','Sous menu'],
     items: [
@@ -150,7 +150,7 @@ const modalsData = {
     imageSrc: 'couvretanche-homepage.png',
     imageIcon: 'digitalizerricon.png',
     imageAlt: 'Projet Mon Vieux Grimoire',
-    description: "J'ai tenté de développer une maquette de site web de A à Z pour une agence marketing web. J'ai réalisé la maquette sur figma et j'ai développé la maquette sur reactjs pour pouvoir réutiliser des composants.",
+    description: "Création d'un site vitrine Wordpress pour une entreprise de couvreur/zingueur. Mise en place du SEO, création compte googlemybusiness et email professionnel. Installation du Wordpress sur OVH.",
     actions: ['Respect de la structure', 'SEO', 'Responsive','Mega menu','Formulaire de contact personnalisé'],
     items: [
       { image: 'wp.png', alt: 'optimisation', text: 'Html / css' },
