@@ -159,6 +159,20 @@ const modalsData = {
     ],
   },
 
+  modalABC: {
+    title: 'Alliance Batiment Construction',
+    imageSrc: 'abchomepage.png',
+    imageIcon: 'logoabc.png',
+    imageAlt: 'Projet ABC Renov',
+    description: "Site vitrine Wordpress pour une entreprise de BTP à Nice qui souhaite un site dynamique et mise en page reprenant le site abc26.fr . SEO, Googlemybusiness, extension devis en ligne. ",
+    actions: ['Respect mise en page', 'SEO', 'Responsive','Devis en ligne','Carousel zoom'],
+    items: [
+      { image: 'wp.png', alt: 'optimisation', text: 'Html / css' },
+      { image: 'html-5.png', alt: 'optimisation', text: 'Figma' },
+      { image: 'seo.png', alt: 'optimisation', text: 'Figma' },
+    ],
+  },
+
 };
 
 
