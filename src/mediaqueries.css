@@ -102,6 +102,11 @@ display: block;  }
     display: none;
   }
 
+  .infos-about div:nth-child(2){
+    display: flex;
+    justify-content: start;
+  }
+
   .overimage{
     width: 50%;
   }
