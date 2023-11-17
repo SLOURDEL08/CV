@@ -91,6 +91,10 @@ display: block;  }
     font-size:12px;
   }
 
+  .secdrow-about .title-about{
+    font-size:15px;
+  }
+
   .overimage-container div:nth-child(3){
     display: none;
   }
