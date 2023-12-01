@@ -257,8 +257,8 @@ const modalsData = {
 
   modalUber: {
     title: "Uber Eats",
-    imageSrc: "digitalizerricon.png",
-    imageIcon: "logoabc.png",
+    imageSrc: "uber-homepage.png",
+    imageIcon: "digitalizerricon.png",
     imageAlt: "Projet Uber",
     linkProject: "https://github.com/SLOURDEL08/UberEats",
     description:
