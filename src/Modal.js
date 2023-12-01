@@ -257,7 +257,7 @@ const modalsData = {
 
   modalUber: {
     title: "Uber Eats",
-    imageSrc: "uber-homepage.png",
+    imageSrc: "digitalizerricon.png",
     imageIcon: "logoabc.png",
     imageAlt: "Projet Uber",
     linkProject: "https://github.com/SLOURDEL08/UberEats",
@@ -266,7 +266,7 @@ const modalsData = {
     actions: ["Vue JS", "Filter", "BDD", "Components"],
     items: [
       { image: "vue.png", alt: "optimisation", text: "Vue JS" },
-      { image: "js.png", alt: "optimisation", text: "Figma" },
+      { image: "js.png", alt: "optimisation", text: "Javascript" },
     ],
   },
 };
