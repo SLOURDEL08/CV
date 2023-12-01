@@ -14,7 +14,7 @@ function Projects() {
     <div className="container-projects">
       <div className="fastmenupro">
         <div>
-          <span className="majdatepro">Mise à jour le 1/12/2023</span>
+          <span className="majdatepro">Mise à jour le 01/12/2023</span>
         </div>
         <div>
           <span className="titlePropage">Mes Projets</span>

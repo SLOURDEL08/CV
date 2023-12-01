@@ -256,10 +256,11 @@ const modalsData = {
   },
 
   modalUber: {
-    title: "Alliance Batiment Construction",
+    title: "Uber Eats",
     imageSrc: "uber-homepage.png",
     imageIcon: "logoabc.png",
     imageAlt: "Projet Uber",
+    linkProject: "https://github.com/SLOURDEL08/UberEats",
     description:
       "Projet réplique ancienne page uber eats, dynamique en Vue Js avec un systeme de filtres fonctionnel. Création de page dynamique selon le restaurant avec menu approprié.",
     actions: ["Vue JS", "Filter", "BDD", "Components"],
