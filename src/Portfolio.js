@@ -45,7 +45,9 @@ function Portfolio() {
             </h1>
             <div>
               <span>Mis à jour le : 01/12/2023</span>
-              <button className="hire">Contactez moi 👋</button>
+              <Link to="mailto:seb.lourdel8@gmail.com">
+                <button className="hire">Contactez moi 👋</button>
+              </Link>
             </div>
           </div>
           <div className="numberscolors">
