@@ -84,7 +84,7 @@ function About() {
               Télécharger mon CV PDF &nbsp;&nbsp;👈
             </button>
             <Link to="/projects">
-              <button>Mes projets</button>
+              <button className="btn-redirc-projets">Mes projets</button>
             </Link>
           </div>
         </div>

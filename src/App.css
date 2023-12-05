@@ -616,7 +616,6 @@ a{
 .hire{
   border:none;
   text-decoration: none;
-  padding:2% 3%;
   font-size:1.1vw;
   background-color: #8428FB;
   color:white;
@@ -624,6 +623,10 @@ a{
   font-style: italic;
   font-family: 'Montserrat';
   border-radius: 100px;
+  width: 200px;
+  padding:12px;
+  cursor: pointer;
+
 
 }
 
@@ -1756,6 +1759,7 @@ border: 1px solid transparent;
 
 .welcomecv span {
   color: grey;
+  text-align: left;
 }
 
 .welcomecv b {
@@ -2867,6 +2871,7 @@ margin-top: 20px;
        color:white;
        font-family: 'Poppins';
        cursor: pointer;
+       border: 1px solid #8428FB;
 
                   }
 .flexbtn-secabout button:nth-child(2){
@@ -2961,3 +2966,21 @@ margin-top: 20px;
 .linkprojects-cont div{
   font-size:20px
 }
+
+
+
+.btn-redirc-projets{
+  color:white!important;
+  border:1px solid white!important;
+  background-color: #00000000!important;
+}
+
+Link{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+a{
+  padding: 0px;
+  margin: 0px;width:fit-content}
