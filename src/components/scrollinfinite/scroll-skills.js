@@ -1,10 +1,16 @@
 import "../../assets/css/App.css";
 
-function ScrollSkills() {
+function ScrollSkills({ applyBorderRadius }) {
   return (
     <div class="image-container">
-      <div className="overlist "></div>
-      <div className="overlist overight"></div>
+      <div
+        className={`overlist ${applyBorderRadius ? "border-radius" : ""}`}
+      ></div>
+      <div
+        className={`overlist overight ${
+          applyBorderRadius ? "border-radius" : ""
+        }`}
+      ></div>
       <div class="image-list">
         <div>
           <img src="./images/git.png" alt="logo wordpress" />
