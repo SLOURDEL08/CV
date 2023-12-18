@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/App.css";
 import Menu from "../components/navigation/Menu";
+import ScrollSkills from "../components/scrollinfinite/scroll-skills";
 
 function About() {
   const [menuOpen, setMenuOpen] = useState(false); // État pour gérer l'ouverture du menu
@@ -94,52 +95,7 @@ function About() {
         </div>
         <div className="thirdrow-about">
           <p>Compétences :</p>
-          <div class="image-container abt">
-            <div class="image-list">
-              <div>
-                <img src="./images/html.png" alt="logo wordpress" />
-              </div>
-              <div>
-                <img src="./images/js.png" alt="logo javascript" />
-              </div>
-              <div>
-                <img src="./images/reactlogo.png" alt="logo tagmanager" />
-              </div>
-              <div>
-                <img src="./images/seo.png" alt="logo seo" />
-              </div>
-              <div>
-                <img src="./images/git.png" alt="logo git" />
-              </div>
-              <div>
-                <img src="./images/wp.png" alt="logo wordpress" />
-              </div>
-              <div>
-                <img src="./images/photoshop.png" alt="logo javascript" />
-              </div>
-              <div>
-                <img src="./images/figma.png" alt="logo wordpress" />
-              </div>
-              <div>
-                <img src="./images/tagmanager.webp" alt="logo javascript" />
-              </div>
-              <div>
-                <img src="./images/sasss.png" alt="logo tagmanager" />
-              </div>
-              <div>
-                <img src="./images/seo.png" alt="logo seo" />
-              </div>
-              <div>
-                <img src="./images/git.png" alt="logo git" />
-              </div>
-              <div>
-                <img src="./images/wp.png" alt="logo wordpress" />
-              </div>
-              <div>
-                <img src="./images/js.png" alt="logo javascript" />
-              </div>
-            </div>
-          </div>
+          <ScrollSkills />
         </div>
       </div>
       <div className="right-about">
