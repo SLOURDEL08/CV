@@ -37,11 +37,7 @@ function Menu({ toggleMenu }) {
   return (
     <div className={`menu-collapse ${menuOpen ? "open" : "closed"}`}>
       <button onClick={closeMenu}>
-        <img
-          src={process.env.PUBLIC_URL + "/images/closem.png"}
-          alt="button"
-          className="iconclosemenu"
-        />
+        <img src="/images/closem.png" alt="button" className="iconclosemenu" />
       </button>
       <div>
         <Link to="/portfolio">
