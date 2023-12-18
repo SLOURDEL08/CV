@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../assets/css/App.css";
 import Modal from "../components/modals/Modal"; // Importez le composant Modal
 import Menu from "../components/navigation/Menu";
+import ScrollSkills from "../components/scrollinfinite/scroll-skills";
 
 function Portfolio() {
   const [modalOpen, setModalOpen] = useState(null); // Utilisez une seule variable d'état pour gérer les modales
@@ -139,6 +140,7 @@ function Portfolio() {
                   </div>
                 </div>
               </div>
+              <ScrollSkills />
               <div className="infos imgdef">
                 <div class="image-container">
                   <div className="overlist"></div>
