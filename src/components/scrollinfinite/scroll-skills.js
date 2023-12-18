@@ -7,8 +7,8 @@ function ScrollSkills({ borderRadius }) {
   return (
     <div className={containerSkillsClassName}>
       <div class="image-container">
-        <div className="overlist bded"></div>
-        <div className="overlist overight bded"></div>
+        <div className="overlist "></div>
+        <div className="overlist overight"></div>
         <div class="image-list">
           <div>
             <img src="./images/git.png" alt="logo wordpress" />
