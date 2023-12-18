@@ -3,8 +3,8 @@ import "../../assets/css/App.css";
 function ScrollSkills() {
   return (
     <div class="image-container">
-      <div className="overlist"></div>
-      <div className="overlist overight"></div>
+      <div className="overlist bded"></div>
+      <div className="overlist overight bded"></div>
       <div class="image-list">
         <div>
           <img src="./images/git.png" alt="logo wordpress" />
