@@ -429,7 +429,6 @@ object-fit: cover;
   justify-content: space-between;
   align-items: center;
   border-radius:25px;
-  background: linear-gradient(120deg,rgba(59, 59, 59, 0.4),hsla(0,0%,100%,.05));;
   background: linear-gradient(#141414, #141414) padding-box,
   linear-gradient(100deg, rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.071)) border-box;
 border: 1px solid transparent;
