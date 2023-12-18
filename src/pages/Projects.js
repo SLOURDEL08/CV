@@ -21,7 +21,7 @@ function Projects() {
         </div>
         <div>
           <button onClick={toggleMenu}>
-            <img src="more.png" alt="navigation" />
+            <img src="./images/more.png" alt="navigation" />
           </button>
         </div>
       </div>
