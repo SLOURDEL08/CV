@@ -3,7 +3,7 @@
 import React from "react";
 import "../App.css";
 import ScrollAuto from "../Scrollauto";
-import modalsData from "./modalsData";
+import modalsData from "./modalsData"; // Importez les données modales depuis le nouveau fichier
 
 // Définissez les données de toutes les modales
 

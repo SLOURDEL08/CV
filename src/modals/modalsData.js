@@ -263,3 +263,5 @@ const modalsData = {
     ],
   },
 };
+
+export default modalsData;
