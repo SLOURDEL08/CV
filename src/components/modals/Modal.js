@@ -37,7 +37,7 @@ const Modal = ({ modalName, isOpen, onClose }) => {
           <div>
             <span className="actionspan">
               <img
-                src="gear.png"
+                src="./images/gear.png"
                 alt="optimisation"
                 className="titleactionimg"
               />
@@ -47,7 +47,7 @@ const Modal = ({ modalName, isOpen, onClose }) => {
               {modalData.actions.map((action, index) => (
                 <li key={index}>
                   <img
-                    src="nounarrow.png"
+                    src="./images/nounarrow.png"
                     alt="optimisation"
                     className="actionimg"
                   />
@@ -68,12 +68,17 @@ const Modal = ({ modalName, isOpen, onClose }) => {
         <div className="linkprojects-cont">
           <a href={modalData.linkProject}>
             <div>
-              <img src="github.png" alt="github icon" /> Lien vers le projet
+              <img src="./images/github.png" alt="github icon" /> Lien vers le
+              projet
             </div>
           </a>
         </div>
         <button className="close-button" onClick={onClose}>
-          <img src="fermerwhite.png" className="closer" alt="nina carducci" />
+          <img
+            src="./images/fermerwhite.png"
+            className="closer"
+            alt="nina carducci"
+          />
         </button>
       </div>
     </div>
