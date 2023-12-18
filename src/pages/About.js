@@ -179,7 +179,7 @@ function About() {
             </div>
           </div>
           <div className="containtitle-rightabout">
-            <img src="work.png" alt="illustration working" />
+            <img src="./images/work.png" alt="illustration working" />
             <p className="title-exp">Expériences</p>
           </div>
           <div className="contain-exp">
