@@ -81,13 +81,13 @@ function Portfolio() {
                 Accès <b>rapide</b>
               </span>
               <button onClick={toggleMenu}>
-                <img src="more.png" alt="navigation" />
+                <img src="./images/more.png" alt="navigation" />
               </button>
             </div>
           </div>
           <div className="flex-infos">
             <div className="pdpcontain fade-in-top">
-              <img src="cesde.png" alt="profil" />
+              <img src="./images/cesde.png" alt="profil" />
             </div>
             <div className="infoscontain fade-in-top">
               <div className="name">
@@ -104,7 +104,7 @@ function Portfolio() {
                   <div className="flex-response">
                     <img
                       className="flexresponse-img"
-                      src="locali.png"
+                      src="./images/locali.png"
                       alt="illustrations"
                     />
                     &nbsp;&nbsp;<p className="repinfos comple loc">Arras</p>
@@ -115,7 +115,7 @@ function Portfolio() {
                   <div className="flex-response">
                     <img
                       className="flexresponse-img"
-                      src="gmail.png"
+                      src="./images/gmail.png"
                       alt="illustrations"
                     />
                     &nbsp;&nbsp;
@@ -129,7 +129,7 @@ function Portfolio() {
                   <div className="flex-response flexresp">
                     <img
                       className="flexresponse-img"
-                      src="phonecall.png"
+                      src="./images/phonecall.png"
                       alt="illustrations"
                     />
                     &nbsp;&nbsp;
@@ -145,46 +145,49 @@ function Portfolio() {
                   <div className="overlist overight"></div>
                   <div class="image-list">
                     <div>
-                      <img src="git.png" alt="logo wordpress" />
+                      <img src="./images/git.png" alt="logo wordpress" />
                     </div>
                     <div>
-                      <img src="js.png" alt="logo javascript" />
+                      <img src="./images/js.png" alt="logo javascript" />
                     </div>
                     <div>
-                      <img src="reactlogo.png" alt="logo tagmanager" />
+                      <img src="./images/reactlogo.png" alt="logo tagmanager" />
                     </div>
                     <div>
-                      <img src="seo.png" alt="logo seo" />
+                      <img src="./images/seo.png" alt="logo seo" />
                     </div>
                     <div>
-                      <img src="git.png" alt="logo git" />
+                      <img src="./images/git.png" alt="logo git" />
                     </div>
                     <div>
-                      <img src="wp.png" alt="logo wordpress" />
+                      <img src="./images/wp.png" alt="logo wordpress" />
                     </div>
                     <div>
-                      <img src="photoshop.png" alt="logo javascript" />
+                      <img src="./images/photoshop.png" alt="logo javascript" />
                     </div>
                     <div>
-                      <img src="figma.png" alt="logo wordpress" />
+                      <img src="./images/figma.png" alt="logo wordpress" />
                     </div>
                     <div>
-                      <img src="tagmanager.webp" alt="logo javascript" />
+                      <img
+                        src="./images/tagmanager.webp"
+                        alt="logo javascript"
+                      />
                     </div>
                     <div>
-                      <img src="reactlogo.png" alt="logo tagmanager" />
+                      <img src="./images/reactlogo.png" alt="logo tagmanager" />
                     </div>
                     <div>
-                      <img src="seo.png" alt="logo seo" />
+                      <img src="./images/seo.png" alt="logo seo" />
                     </div>
                     <div>
-                      <img src="git.png" alt="logo git" />
+                      <img src="./images/git.png" alt="logo git" />
                     </div>
                     <div>
-                      <img src="wp.png" alt="logo wordpress" />
+                      <img src="./images/wp.png" alt="logo wordpress" />
                     </div>
                     <div>
-                      <img src="js.png" alt="logo javascript" />
+                      <img src="./images/js.png" alt="logo javascript" />
                     </div>
                   </div>
                 </div>
@@ -205,7 +208,7 @@ function Portfolio() {
             <div class="overimage-container">
               <div class="overimage">
                 <img
-                  src="grimoire-filter.webp"
+                  src="./images/grimoire-filter.webp"
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
@@ -222,7 +225,7 @@ function Portfolio() {
 
               <div class="overimage">
                 <img
-                  src="nina-filter.webp"
+                  src="./images/nina-filter.webp"
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
@@ -239,7 +242,7 @@ function Portfolio() {
 
               <div class="overimage">
                 <img
-                  src="sophie-filter.webp"
+                  src="./images/sophie-filter.webp"
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
@@ -256,7 +259,7 @@ function Portfolio() {
 
               <div class="overimage">
                 <img
-                  src="kasa-filter.webp"
+                  src="./images/kasa-filter.webp"
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
