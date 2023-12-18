@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "./Modal";
+import Modal from "./modals/Modal";
 
 const FilterableProjects = () => {
   const [currentFilter, setCurrentFilter] = useState(null);
