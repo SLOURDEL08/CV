@@ -1,9 +1,9 @@
 // Modal.js
 
 import React from "react";
-import "../App.css";
-import ScrollAuto from "../Scrollauto";
-import modalsData from "./modalsData"; // Importez les données modales depuis le nouveau fichier
+import "../../assets/css/App.css";
+import ScrollAuto from "../scrollinfinite/Scrollauto";
+import modalsData from "../modals/modalsData"; // Importez les données modales depuis le nouveau fichier
 
 // Définissez les données de toutes les modales
 

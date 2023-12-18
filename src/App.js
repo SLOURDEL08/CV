@@ -6,11 +6,11 @@ import {
   Navigate,
 } from "react-router-dom";
 import About from "./pages/About";
-import Portfolio from "./Portfolio";
-import Projects from "./Projects";
-import Menu from "./Menu";
-import "./mediaqueries.css";
-import modalsData from "./modals/modalsData"; // Importez les données modales depuis le nouveau fichier
+import Portfolio from "./pages/Portfolio";
+import Projects from "./pages/Projects";
+import Menu from "./components/navigation/Menu";
+import "./assets/css/mediaqueries.css";
+import modalsData from "./components/modals/modalsData"; // Importez les données modales depuis le nouveau fichier
 
 function preloadImages(modals) {
   modals.forEach((modal) => {

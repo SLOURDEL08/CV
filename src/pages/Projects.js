@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./App.css";
-import FilterableProjects from "./FilterableProjects";
-import Menu from "./Menu";
+import "../assets/css/App.css";
+import FilterableProjects from "../components/filter/FilterableProjects";
+import Menu from "../components/navigation/Menu";
 
 function Projects() {
   const [menuOpen, setMenuOpen] = useState(false);

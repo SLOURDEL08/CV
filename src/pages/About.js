@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../App.css";
-import Menu from "../Menu";
+import "../assets/css/App.css";
+import Menu from "../components/navigation/Menu";
 
 function About() {
   const [menuOpen, setMenuOpen] = useState(false); // État pour gérer l'ouverture du menu

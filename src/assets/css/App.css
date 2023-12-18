@@ -66,19 +66,7 @@ html{
   color:#FFFFFF20;
 }
 
-.homepage{
-  height:88vh;
-  background-color:#000000;
-  background-image: url('pdp1.png'); /* Remplace le chemin par le chemin réel de ton image */
-  background-size: cover; /* Ajuste la taille de l'image pour couvrir la div */
-  background-position: center left 200px; /* Centre l'image horizontalement et verticalement */
-  background-repeat: no-repeat; /* Empêche la répétition de l'image */
-  padding:0px;
-  margin:0px;
-  padding:50px;
-  text-align: left;
 
-}
 
 
 

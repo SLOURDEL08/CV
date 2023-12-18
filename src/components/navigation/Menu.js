@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./App.css"; // Assurez-vous que le fichier CSS est correctement importé
+import "../../assets/css/App.css";
 
 function Menu({ toggleMenu }) {
   const [menuOpen, setMenuOpen] = useState(true);

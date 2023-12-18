@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
-import Modal from "./modals/Modal"; // Importez le composant Modal
-import Menu from "./Menu";
+import "../assets/css/App.css";
+import Modal from "../components/modals/Modal"; // Importez le composant Modal
+import Menu from "../components/navigation/Menu";
 
 function Portfolio() {
   const [modalOpen, setModalOpen] = useState(null); // Utilisez une seule variable d'état pour gérer les modales
