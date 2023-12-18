@@ -38,9 +38,9 @@ function Menu({ toggleMenu }) {
     <div className={`menu-collapse ${menuOpen ? "open" : "closed"}`}>
       <button onClick={closeMenu}>
         <img
-          src="./images/closem.png"
+          src={process.env.PUBLIC_URL + "/images/closem.png"}
+          alt="button"
           className="iconclosemenu"
-          alt="close button"
         />
       </button>
       <div>
