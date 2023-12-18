@@ -141,7 +141,9 @@ function Portfolio() {
                 </div>
               </div>
 
-              <ScrollSkills borderRadius="25px" />
+              <div className="infos imgdef">
+                <ScrollSkills />
+              </div>
             </div>
           </div>
         </div>
