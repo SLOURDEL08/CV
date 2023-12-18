@@ -85,9 +85,7 @@ function About() {
             git.
           </span>
           <div className="flexbtn-secabout">
-            <button onClick={downloadPDF}>
-              Télécharger mon CV PDF &nbsp;&nbsp;👈
-            </button>
+            <button onClick={downloadPDF}>Télécharger mon CV &nbsp;👈</button>
             <Link to="/projects">
               <button className="btn-redirc-projets">Mes projets</button>
             </Link>
@@ -95,7 +93,9 @@ function About() {
         </div>
         <div className="thirdrow-about">
           <p>Compétences :</p>
-          <ScrollSkills />
+          <div className="ctn-ss">
+            <ScrollSkills />
+          </div>
         </div>
       </div>
       <div className="right-about">
