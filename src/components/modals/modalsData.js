@@ -255,8 +255,8 @@ const modalsData = {
     imageAlt: "Projet Uber",
     linkProject: "https://github.com/SLOURDEL08/UberEats",
     description:
-      "Projet réplique ancienne page uber eats, dynamique en Vue Js avec un systeme de filtres fonctionnel. Création de page dynamique selon le restaurant avec menu approprié.",
-    actions: ["Vue JS", "Filter", "BDD", "Components"],
+      "Projet réplique ancienne page uber eats, dynamique en Vue Js avec un systeme de filtres fonctionnel directement dans la search bar. Création de page dynamique selon le restaurant avec menu approprié.",
+    actions: ["Vue JS", "Filter", "BDD", "Components", "Search Bar"],
     items: [
       { image: "vue.png", alt: "optimisation", text: "Vue JS" },
       { image: "js.png", alt: "optimisation", text: "Javascript" },
