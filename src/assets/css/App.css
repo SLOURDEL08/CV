@@ -129,7 +129,7 @@ padding-top:40px;
   flex-direction: row-reverse;
   
 }
-.container-skills.withBorderRadius {
+.border-radius {
   border-radius: 25px; /* Styles pour le conteneur avec bordure */
 }
 .img-parcours{
