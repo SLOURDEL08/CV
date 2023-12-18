@@ -129,7 +129,9 @@ padding-top:40px;
   flex-direction: row-reverse;
   
 }
-
+.container.withBorderRadius {
+  border-radius: 25px; /* Styles pour le conteneur avec bordure */
+}
 .img-parcours{
 width: 25%;
 height: 200px;
