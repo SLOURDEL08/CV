@@ -22,7 +22,11 @@ function About() {
     <div className="container-about">
       <div className="left-about">
         <div className="secdrow-about">
-          <img src="cesde.png" className="profilpic-about" alt="profil pic" />
+          <img
+            src="./images/cesde.png"
+            className="profilpic-about"
+            alt="profil pic"
+          />
           <div className="infos-about">
             <p className="title-about">LOURDEL Sébastien</p>
             <div>
@@ -34,7 +38,7 @@ function About() {
               <div className="replbl-about">
                 <img
                   className="flexresponse-img"
-                  src="locali.png"
+                  src="./images/locali.png"
                   alt="illustrations"
                 />
                 &nbsp;&nbsp;<p className="replbl-about">Arras</p>
@@ -45,7 +49,7 @@ function About() {
               <div className="replbl-about">
                 <img
                   className="flexresponse-img"
-                  src="gmail.png"
+                  src="./images/gmail.png"
                   alt="illustrations"
                 />
                 &nbsp;&nbsp;
@@ -57,7 +61,7 @@ function About() {
               <div className="replbl-about">
                 <img
                   className="flexresponse-img"
-                  src="phonecall.png"
+                  src="./images/phonecall.png"
                   alt="illustrations"
                 />
                 &nbsp;&nbsp;<p className="replbl-about">06.30.99.50.15</p>
@@ -93,46 +97,46 @@ function About() {
           <div class="image-container abt">
             <div class="image-list">
               <div>
-                <img src="html.png" alt="logo wordpress" />
+                <img src="./images/html.png" alt="logo wordpress" />
               </div>
               <div>
-                <img src="js.png" alt="logo javascript" />
+                <img src="./images/js.png" alt="logo javascript" />
               </div>
               <div>
-                <img src="reactlogo.png" alt="logo tagmanager" />
+                <img src="./images/reactlogo.png" alt="logo tagmanager" />
               </div>
               <div>
-                <img src="seo.png" alt="logo seo" />
+                <img src="./images/seo.png" alt="logo seo" />
               </div>
               <div>
-                <img src="git.png" alt="logo git" />
+                <img src="./images/git.png" alt="logo git" />
               </div>
               <div>
-                <img src="wp.png" alt="logo wordpress" />
+                <img src="./images/wp.png" alt="logo wordpress" />
               </div>
               <div>
-                <img src="photoshop.png" alt="logo javascript" />
+                <img src="./images/photoshop.png" alt="logo javascript" />
               </div>
               <div>
-                <img src="figma.png" alt="logo wordpress" />
+                <img src="./images/figma.png" alt="logo wordpress" />
               </div>
               <div>
-                <img src="tagmanager.webp" alt="logo javascript" />
+                <img src="./images/tagmanager.webp" alt="logo javascript" />
               </div>
               <div>
-                <img src="sasss.png" alt="logo tagmanager" />
+                <img src="./images/sasss.png" alt="logo tagmanager" />
               </div>
               <div>
-                <img src="seo.png" alt="logo seo" />
+                <img src="./images/seo.png" alt="logo seo" />
               </div>
               <div>
-                <img src="git.png" alt="logo git" />
+                <img src="./images/git.png" alt="logo git" />
               </div>
               <div>
-                <img src="wp.png" alt="logo wordpress" />
+                <img src="./images/wp.png" alt="logo wordpress" />
               </div>
               <div>
-                <img src="js.png" alt="logo javascript" />
+                <img src="./images/js.png" alt="logo javascript" />
               </div>
             </div>
           </div>
@@ -144,12 +148,12 @@ function About() {
             Accès <b>rapide</b>
           </span>
           <button onClick={toggleMenu}>
-            <img src="more.png" alt="navigation" />
+            <img src="./images/more.png" alt="navigation" />
           </button>
         </div>
         <div className="contain-cvinfos">
           <div className="containtitle-rightabout">
-            <img src="chapeau.png" />
+            <img src="./images/chapeau.png" alt="chepau" />
             <p className="title-exp">Formations</p>
           </div>
           <div className="contain-form">
@@ -175,7 +179,7 @@ function About() {
             </div>
           </div>
           <div className="containtitle-rightabout">
-            <img src="work.png" />
+            <img src="work.png" alt="illustration working" />
             <p className="title-exp">Expériences</p>
           </div>
           <div className="contain-exp">

@@ -1,8 +1,8 @@
 const modalsData = {
   modalKasa: {
     title: "Projet Kasa",
-    imageIcon: "eta.png",
-    imageSrc: "home-kasa.png",
+    imageIcon: "./images/eta.png",
+    imageSrc: "./images/home-kasa.png",
     imageAlt: "Projet Kasa",
     linkProject: "https://github.com/SLOURDEL08/KASA",
     description:
@@ -17,17 +17,17 @@ const modalsData = {
       "Responsive",
     ],
     items: [
-      { image: "react.webp", alt: "optimisation", text: "React JS" },
-      { image: "json.png", alt: "optimisation", text: "JSON" },
-      { image: "figma.png", alt: "optimisation", text: "Figma" },
-      { image: "sass.png", alt: "optimisation", text: "Sass" },
+      { image: "./images/react.webp", alt: "optimisation", text: "React JS" },
+      { image: "./images/json.png", alt: "optimisation", text: "JSON" },
+      { image: "./images/figma.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/sass.png", alt: "optimisation", text: "Sass" },
       // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
   modalNinaC: {
     title: "Nina Carducci",
-    imageSrc: "ninacardu.png",
-    imageIcon: "photo.png",
+    imageSrc: "./images/ninacardu.png",
+    imageIcon: "./images/photo.png",
     imageAlt: "icone Nina Carducci",
     linkProject: "https://github.com/SLOURDEL08/NinaCarducci",
     description:
@@ -43,19 +43,35 @@ const modalsData = {
       "Rapport perfomances Avant / Après",
     ],
     items: [
-      { image: "html-5.png", alt: "Nina Carducci Image 1", text: "Html / css" },
-      { image: "js.png", alt: "Nina Carducci Image 2", text: "Javascript" },
+      {
+        image: "./images/html-5.png",
+        alt: "Nina Carducci Image 1",
+        text: "Html / css",
+      },
+      {
+        image: "./images/js.png",
+        alt: "Nina Carducci Image 2",
+        text: "Javascript",
+      },
       { alt: "Nina Carducci Image 2", text: "SEO" },
-      { image: "light.png", alt: "Nina Carducci Image 2", text: "Lighthouse" },
-      { image: "wave.png", alt: "Nina Carducci Image 2", text: "Wave" },
+      {
+        image: "./images/light.png",
+        alt: "Nina Carducci Image 2",
+        text: "Lighthouse",
+      },
+      {
+        image: "./images/wave.png",
+        alt: "Nina Carducci Image 2",
+        text: "Wave",
+      },
 
       // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
   modalMVG: {
     title: "Mon Vieux Grimoire",
-    imageSrc: "homegrim.png",
-    imageIcon: "book.png",
+    imageSrc: "./images/homegrim.png",
+    imageIcon: "./images/book.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     linkProject: "https://github.com/SLOURDEL08/MonVieuxGrimoire",
     description:
@@ -69,17 +85,17 @@ const modalsData = {
       "Optimisation Image",
     ],
     items: [
-      { image: "node-js.png", alt: "optimisation", text: "Node JS" },
-      { image: "express.png", alt: "optimisation", text: "Express" },
+      { image: "./images/node-js.png", alt: "optimisation", text: "Node JS" },
+      { image: "./images/express.png", alt: "optimisation", text: "Express" },
       { alt: "optimisation", text: "JWT" },
-      { image: "mongo.png", alt: "optimisation", text: "MongoDB" },
+      { image: "./images/mongo.png", alt: "optimisation", text: "MongoDB" },
       // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
   modalSophieBluel: {
     title: "Sophie Bluel",
-    imageSrc: "sophieb.png",
-    imageIcon: "home-kasa.png",
+    imageSrc: "./images/sophieb.png",
+    imageIcon: "./images/home-kasa.png",
     imageAlt: "Projet Kasa",
     linkProject: "https://github.com/SLOURDEL08/SophieBluel",
     description:
@@ -93,35 +109,43 @@ const modalsData = {
       "Formulaire Ajout CRUD",
     ],
     items: [
-      { image: "React.webp", alt: "SophieBluel Image 2", text: "React JS" },
       {
-        image: "Swagger-logo.png",
+        image: "./images/React.webp",
+        alt: "SophieBluel Image 2",
+        text: "React JS",
+      },
+      {
+        image: "./images/Swagger-logo.png",
         alt: "SophieBluel Image 1",
         text: "Swagger",
       },
-      { image: "js.png", alt: "SophieBluel Image 1", text: "Javascript" },
+      {
+        image: "./images/js.png",
+        alt: "SophieBluel Image 1",
+        text: "Javascript",
+      },
     ],
   },
 
   modalBooki: {
     title: "Booki",
-    imageSrc: "booki.png",
-    imageIcon: "bookilock.png",
+    imageSrc: "./images/booki.png",
+    imageIcon: "./images/bookilock.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     linkProject: "https://github.com/SLOURDEL08/BOOKI",
     description:
       "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
     actions: ["Développement Front End", "Respect des maquettes", "Responsive"],
     items: [
-      { image: "html-5.png", alt: "optimisation", text: "Html / css" },
-      { image: "figma.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/html-5.png", alt: "optimisation", text: "Html / css" },
+      { image: "./images/figma.png", alt: "optimisation", text: "Figma" },
     ],
   },
 
   modalFerrari: {
     title: "Ferrari Beverly",
-    imageSrc: "ferrarihomepage.png",
-    imageIcon: "ferrari1.png",
+    imageSrc: "./images/ferrarihomepage.png",
+    imageIcon: "./images/ferrari1.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     linkProject: "https://github.com/SLOURDEL08/FerrariBeverly",
     description:
@@ -135,16 +159,16 @@ const modalsData = {
       "Carousel",
     ],
     items: [
-      { image: "React.webp", alt: "optimisation", text: "Html / css" },
-      { image: "js.png", alt: "optimisation", text: "Figma" },
-      { image: "html-5.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/React.webp", alt: "optimisation", text: "Html / css" },
+      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
     ],
   },
 
   modalToast: {
     title: "Toast Collectif",
-    imageSrc: "toast.png",
-    imageIcon: "toastlogo.png",
+    imageSrc: "./images/toast.png",
+    imageIcon: "./images/toastlogo.png",
     imageAlt: "Projet ToastCollectif",
     linkProject: "",
     description:
@@ -157,16 +181,16 @@ const modalsData = {
       "Arborescence",
     ],
     items: [
-      { image: "wp.png", alt: "optimisation", text: "Html / css" },
-      { image: "js.png", alt: "optimisation", text: "Figma" },
-      { image: "html-5.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/wp.png", alt: "optimisation", text: "Html / css" },
+      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
     ],
   },
 
   modalTesla: {
     title: "Tesla HomePage",
-    imageSrc: "tesla.png",
-    imageIcon: "teslalogo.png",
+    imageSrc: "./images/tesla.png",
+    imageIcon: "./images/teslalogo.png",
     imageAlt: "Projet Tesla HomePage",
     linkProject: "",
     description:
@@ -179,16 +203,16 @@ const modalsData = {
       "Sous menu",
     ],
     items: [
-      { image: "React.webp", alt: "optimisation", text: "Html / css" },
-      { image: "js.png", alt: "optimisation", text: "Figma" },
-      { image: "html-5.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/React.webp", alt: "optimisation", text: "Html / css" },
+      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
     ],
   },
 
   modalDigit: {
     title: "Digitalizerr",
-    imageSrc: "digitalizerrhome.png",
-    imageIcon: "digitalizerricon.png",
+    imageSrc: "./images/digitalizerrhome.png",
+    imageIcon: "./images/digitalizerricon.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     description:
       "J'ai tenté de développer une maquette de site web de A à Z pour une agence marketing web. J'ai réalisé la maquette sur figma et j'ai développé la maquette sur reactjs pour pouvoir réutiliser des composants.",
@@ -199,17 +223,17 @@ const modalsData = {
       "Responsive",
     ],
     items: [
-      { image: "React.webp", alt: "optimisation", text: "Html / css" },
-      { image: "js.png", alt: "optimisation", text: "Figma" },
-      { image: "figma.png", alt: "optimisation", text: "Figma" },
-      { image: "html-5.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/React.webp", alt: "optimisation", text: "Html / css" },
+      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/figma.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
     ],
   },
 
   modalCouvreT: {
     title: "Couvretanche",
-    imageSrc: "couvretanche-homepage.png",
-    imageIcon: "digitalizerricon.png",
+    imageSrc: "./images/couvretanche-homepage.png",
+    imageIcon: "./images/digitalizerricon.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     description:
       "Création d'un site vitrine Wordpress pour une entreprise de couvreur/zingueur. Mise en place du SEO, création compte googlemybusiness et email professionnel. Installation du Wordpress sur OVH.",
@@ -221,16 +245,16 @@ const modalsData = {
       "Formulaire de contact personnalisé",
     ],
     items: [
-      { image: "wp.png", alt: "optimisation", text: "Html / css" },
-      { image: "html-5.png", alt: "optimisation", text: "Figma" },
-      { image: "seo.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/wp.png", alt: "optimisation", text: "Html / css" },
+      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/seo.png", alt: "optimisation", text: "Figma" },
     ],
   },
 
   modalABC: {
     title: "Alliance Batiment Construction",
-    imageSrc: "abchomepage.png",
-    imageIcon: "logoabc.png",
+    imageSrc: "./images/abchomepage.png",
+    imageIcon: "./images/logoabc.png",
     imageAlt: "Projet ABC Renov",
     description:
       "Site vitrine Wordpress pour une entreprise de BTP à Nice qui souhaite un site dynamique et mise en page reprenant le site abc26.fr . SEO, Googlemybusiness, extension devis en ligne. ",
@@ -242,9 +266,9 @@ const modalsData = {
       "Carousel zoom",
     ],
     items: [
-      { image: "wp.png", alt: "optimisation", text: "Html / css" },
-      { image: "html-5.png", alt: "optimisation", text: "Figma" },
-      { image: "seo.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/wp.png", alt: "optimisation", text: "Html / css" },
+      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
+      { image: "./images/seo.png", alt: "optimisation", text: "Figma" },
     ],
   },
 
@@ -259,7 +283,7 @@ const modalsData = {
     actions: ["Vue JS", "Filter", "BDD", "Components", "Search Bar"],
     items: [
       { image: "./images/vue.png", alt: "optimisation", text: "Vue JS" },
-      { image: "js.png", alt: "optimisation", text: "Javascript" },
+      { image: "./images/js.png", alt: "optimisation", text: "Javascript" },
     ],
   },
 };
