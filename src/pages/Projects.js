@@ -22,7 +22,7 @@ function Projects() {
         <div>
           <button onClick={toggleMenu}>
             <img
-              src={process.env.PUBLIC_URL + "./images/more.png"}
+              src={process.env.PUBLIC_URL + "/images/more.png"}
               alt="navigation"
             />
           </button>
