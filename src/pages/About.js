@@ -24,7 +24,7 @@ function About() {
       <div className="left-about">
         <div className="secdrow-about">
           <img
-            src="./images/cesde.png"
+            src={process.env.PUBLIC_URL + "/images/cesde.png"}
             className="profilpic-about"
             alt="profil pic"
           />
@@ -39,7 +39,7 @@ function About() {
               <div className="replbl-about">
                 <img
                   className="flexresponse-img"
-                  src="./images/locali.png"
+                  src={process.env.PUBLIC_URL + "/images/locali.png"}
                   alt="illustrations"
                 />
                 &nbsp;&nbsp;<p className="replbl-about">Arras</p>
@@ -50,7 +50,7 @@ function About() {
               <div className="replbl-about">
                 <img
                   className="flexresponse-img"
-                  src="./images/gmail.png"
+                  src={process.env.PUBLIC_URL + "/images/gmail.png"}
                   alt="illustrations"
                 />
                 &nbsp;&nbsp;
@@ -62,7 +62,7 @@ function About() {
               <div className="replbl-about">
                 <img
                   className="flexresponse-img"
-                  src="./images/phonecall.png"
+                  src={process.env.PUBLIC_URL + "/images/phonecall.png"}
                   alt="illustrations"
                 />
                 &nbsp;&nbsp;<p className="replbl-about">06.30.99.50.15</p>
@@ -104,12 +104,18 @@ function About() {
             Accès <b>rapide</b>
           </span>
           <button onClick={toggleMenu}>
-            <img src="./images/more.png" alt="navigation" />
+            <img
+              src={process.env.PUBLIC_URL + "/images/more.png"}
+              alt="navigation"
+            />
           </button>
         </div>
         <div className="contain-cvinfos">
           <div className="containtitle-rightabout">
-            <img src="./images/chapeau.png" alt="chepau" />
+            <img
+              src={process.env.PUBLIC_URL + "/images/chapeau.png"}
+              alt="chepau"
+            />
             <p className="title-exp">Formations</p>
           </div>
           <div className="contain-form">
@@ -135,7 +141,10 @@ function About() {
             </div>
           </div>
           <div className="containtitle-rightabout">
-            <img src="./images/work.png" alt="illustration working" />
+            <img
+              src={process.env.PUBLIC_URL + "/images/work.png"}
+              alt="illustration working"
+            />
             <p className="title-exp">Expériences</p>
           </div>
           <div className="contain-exp">
