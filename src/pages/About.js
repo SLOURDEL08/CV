@@ -151,7 +151,7 @@ function About() {
             <div className="exp-item">
               <p>Auto Entrepreneur</p>
               <p>Création site Wordpress personnalisé</p>
-              <p>Fevrier 2020</p>
+              <p>Fevrier 2019</p>
             </div>
             <div className="exp-item">
               <p>Agent de production</p>
@@ -167,11 +167,6 @@ function About() {
               <p>Alternance Développeur</p>
               <p>Toast Collectif</p>
               <p>Nov 2022 - Nov 2023</p>
-            </div>
-            <div className="exp-item">
-              <p>Auto Entrepreneur</p>
-              <p>Création site Wordpress personnalisé</p>
-              <p>Fevrier 2018</p>
             </div>
           </div>
         </div>
