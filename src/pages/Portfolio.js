@@ -82,13 +82,19 @@ function Portfolio() {
                 Accès <b>rapide</b>
               </span>
               <button onClick={toggleMenu}>
-                <img src="./images/more.png" alt="navigation" />
+                <img
+                  src={process.env.PUBLIC_URL + "/images/more.png"}
+                  alt="navigation"
+                />
               </button>
             </div>
           </div>
           <div className="flex-infos">
             <div className="pdpcontain fade-in-top">
-              <img src="./images/cesde.png" alt="profil" />
+              <img
+                src={process.env.PUBLIC_URL + "/images/cesde.png"}
+                alt="profil"
+              />
             </div>
             <div className="infoscontain fade-in-top">
               <div className="name">
@@ -105,7 +111,7 @@ function Portfolio() {
                   <div className="flex-response">
                     <img
                       className="flexresponse-img"
-                      src="./images/locali.png"
+                      src={process.env.PUBLIC_URL + "/images/locali.png"}
                       alt="illustrations"
                     />
                     &nbsp;&nbsp;<p className="repinfos comple loc">Arras</p>
@@ -116,7 +122,7 @@ function Portfolio() {
                   <div className="flex-response">
                     <img
                       className="flexresponse-img"
-                      src="./images/gmail.png"
+                      src={process.env.PUBLIC_URL + "/images/gmail.png"}
                       alt="illustrations"
                     />
                     &nbsp;&nbsp;
@@ -130,7 +136,7 @@ function Portfolio() {
                   <div className="flex-response flexresp">
                     <img
                       className="flexresponse-img"
-                      src="./images/phonecall.png"
+                      src={process.env.PUBLIC_URL + "/images/phonecall.png"}
                       alt="illustrations"
                     />
                     &nbsp;&nbsp;
@@ -160,7 +166,7 @@ function Portfolio() {
             <div class="overimage-container">
               <div class="overimage">
                 <img
-                  src="./images/grimoire-filter.webp"
+                  src={process.env.PUBLIC_URL + "/images/grimoire-filter.webp"}
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
@@ -177,7 +183,7 @@ function Portfolio() {
 
               <div class="overimage">
                 <img
-                  src="./images/nina-filter.webp"
+                  src={process.env.PUBLIC_URL + "/images/nina-filter.webp"}
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
@@ -194,7 +200,7 @@ function Portfolio() {
 
               <div class="overimage">
                 <img
-                  src="./images/sophie-filter.webp"
+                  src={process.env.PUBLIC_URL + "/images/sophie-filter.webp"}
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
@@ -211,7 +217,7 @@ function Portfolio() {
 
               <div class="overimage">
                 <img
-                  src="./images/kasa-filter.webp"
+                  src={process.env.PUBLIC_URL + "/images/kasa-filter.webp"}
                   alt="projet 3"
                   class="overimage__img"
                   loading="lazy"
