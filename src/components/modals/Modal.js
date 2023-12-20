@@ -37,7 +37,7 @@ const Modal = ({ modalName, isOpen, onClose }) => {
           <div>
             <span className="actionspan">
               <img
-                src="./images/gear.png"
+                src={process.env.PUBLIC_URL + "/images/gear.png"}
                 alt="optimisation"
                 className="titleactionimg"
               />
@@ -47,7 +47,7 @@ const Modal = ({ modalName, isOpen, onClose }) => {
               {modalData.actions.map((action, index) => (
                 <li key={index}>
                   <img
-                    src="./images/nounarrow.png"
+                    src={process.env.PUBLIC_URL + "/images/nounarrow.png"}
                     alt="optimisation"
                     className="actionimg"
                   />
@@ -68,14 +68,17 @@ const Modal = ({ modalName, isOpen, onClose }) => {
         <div className="linkprojects-cont">
           <a href={modalData.linkProject}>
             <div>
-              <img src="./images/github.png" alt="github icon" /> Lien vers le
-              projet
+              <img
+                src={process.env.PUBLIC_URL + "/images/github.png"}
+                alt="github icon"
+              />{" "}
+              Lien vers le projet
             </div>
           </a>
         </div>
         <button className="close-button" onClick={onClose}>
           <img
-            src="./images/fermerwhite.png"
+            src={process.env.PUBLIC_URL + "/images/fermerwhite.png"}
             className="closer"
             alt="nina carducci"
           />

@@ -1,8 +1,8 @@
 const modalsData = {
   modalKasa: {
     title: "Projet Kasa",
-    imageIcon: "./images/eta.png",
-    imageSrc: "./images/home-kasa.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/eta.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/home-kasa.png",
     imageAlt: "Projet Kasa",
     linkProject: "https://github.com/SLOURDEL08/KASA",
     description:
@@ -17,17 +17,33 @@ const modalsData = {
       "Responsive",
     ],
     items: [
-      { image: "./images/react.webp", alt: "optimisation", text: "React JS" },
-      { image: "./images/json.png", alt: "optimisation", text: "JSON" },
-      { image: "./images/figma.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/sass.png", alt: "optimisation", text: "Sass" },
+      {
+        image: process.env.PUBLIC_URL + "/images/react.webp",
+        alt: "optimisation",
+        text: "React JS",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/json.png",
+        alt: "optimisation",
+        text: "JSON",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/figma.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/sass.png",
+        alt: "optimisation",
+        text: "Sass",
+      },
       // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
   modalNinaC: {
     title: "Nina Carducci",
-    imageSrc: "./images/ninacardu.png",
-    imageIcon: "./images/photo.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/ninacardu.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/photo.png",
     imageAlt: "icone Nina Carducci",
     linkProject: "https://github.com/SLOURDEL08/NinaCarducci",
     description:
@@ -44,23 +60,23 @@ const modalsData = {
     ],
     items: [
       {
-        image: "./images/html-5.png",
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
         alt: "Nina Carducci Image 1",
         text: "Html / css",
       },
       {
-        image: "./images/js.png",
+        image: process.env.PUBLIC_URL + "/images/js.png",
         alt: "Nina Carducci Image 2",
         text: "Javascript",
       },
       { alt: "Nina Carducci Image 2", text: "SEO" },
       {
-        image: "./images/light.png",
+        image: process.env.PUBLIC_URL + "/images/light.png",
         alt: "Nina Carducci Image 2",
         text: "Lighthouse",
       },
       {
-        image: "./images/wave.png",
+        image: process.env.PUBLIC_URL + "/images/wave.png",
         alt: "Nina Carducci Image 2",
         text: "Wave",
       },
@@ -70,8 +86,8 @@ const modalsData = {
   },
   modalMVG: {
     title: "Mon Vieux Grimoire",
-    imageSrc: "./images/homegrim.png",
-    imageIcon: "./images/book.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/homegrim.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/book.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     linkProject: "https://github.com/SLOURDEL08/MonVieuxGrimoire",
     description:
@@ -85,17 +101,29 @@ const modalsData = {
       "Optimisation Image",
     ],
     items: [
-      { image: "./images/node-js.png", alt: "optimisation", text: "Node JS" },
-      { image: "./images/express.png", alt: "optimisation", text: "Express" },
+      {
+        image: process.env.PUBLIC_URL + "/images/node-js.png",
+        alt: "optimisation",
+        text: "Node JS",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/express.png",
+        alt: "optimisation",
+        text: "Express",
+      },
       { alt: "optimisation", text: "JWT" },
-      { image: "./images/mongo.png", alt: "optimisation", text: "MongoDB" },
+      {
+        image: process.env.PUBLIC_URL + "/images/mongo.png",
+        alt: "optimisation",
+        text: "MongoDB",
+      },
       // Ajoutez d'autres éléments au tableau selon vos besoins
     ],
   },
   modalSophieBluel: {
     title: "Sophie Bluel",
-    imageSrc: "./images/sophieb.png",
-    imageIcon: "./images/home-kasa.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/sophieb.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/home-kasa.png",
     imageAlt: "Projet Kasa",
     linkProject: "https://github.com/SLOURDEL08/SophieBluel",
     description:
@@ -110,17 +138,17 @@ const modalsData = {
     ],
     items: [
       {
-        image: "./images/React.webp",
+        image: process.env.PUBLIC_URL + "/images/React.webp",
         alt: "SophieBluel Image 2",
         text: "React JS",
       },
       {
-        image: "./images/Swagger-logo.png",
+        image: process.env.PUBLIC_URL + "/images/Swagger-logo.png",
         alt: "SophieBluel Image 1",
         text: "Swagger",
       },
       {
-        image: "./images/js.png",
+        image: process.env.PUBLIC_URL + "/images/js.png",
         alt: "SophieBluel Image 1",
         text: "Javascript",
       },
@@ -129,23 +157,31 @@ const modalsData = {
 
   modalBooki: {
     title: "Booki",
-    imageSrc: "./images/booki.png",
-    imageIcon: "./images/bookilock.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/booki.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/bookilock.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     linkProject: "https://github.com/SLOURDEL08/BOOKI",
     description:
       "Développement front end de la page d'accueil de l'application Booki qui permet aux usagers de trouver des hébergements et des activités de leur choix. Respect des maquettes et des changements de mis en page selon les résolutions d'écran? ",
     actions: ["Développement Front End", "Respect des maquettes", "Responsive"],
     items: [
-      { image: "./images/html-5.png", alt: "optimisation", text: "Html / css" },
-      { image: "./images/figma.png", alt: "optimisation", text: "Figma" },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "Html / css",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/figma.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
     ],
   },
 
   modalFerrari: {
     title: "Ferrari Beverly",
-    imageSrc: "./images/ferrarihomepage.png",
-    imageIcon: "./images/ferrari1.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/ferrarihomepage.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/ferrari1.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     linkProject: "https://github.com/SLOURDEL08/FerrariBeverly",
     description:
@@ -159,16 +195,28 @@ const modalsData = {
       "Carousel",
     ],
     items: [
-      { image: "./images/React.webp", alt: "optimisation", text: "Html / css" },
-      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
+      {
+        image: process.env.PUBLIC_URL + "/images/React.webp",
+        alt: "optimisation",
+        text: "Html / css",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/js.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
     ],
   },
 
   modalToast: {
     title: "Toast Collectif",
-    imageSrc: "./images/toast.png",
-    imageIcon: "./images/toastlogo.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/toast.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/toastlogo.png",
     imageAlt: "Projet ToastCollectif",
     linkProject: "",
     description:
@@ -181,16 +229,28 @@ const modalsData = {
       "Arborescence",
     ],
     items: [
-      { image: "./images/wp.png", alt: "optimisation", text: "Html / css" },
-      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
+      {
+        image: process.env.PUBLIC_URL + "/images/wp.png",
+        alt: "optimisation",
+        text: "Html / css",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/js.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
     ],
   },
 
   modalTesla: {
     title: "Tesla HomePage",
-    imageSrc: "./images/tesla.png",
-    imageIcon: "./images/teslalogo.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/tesla.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/teslalogo.png",
     imageAlt: "Projet Tesla HomePage",
     linkProject: "",
     description:
@@ -203,16 +263,28 @@ const modalsData = {
       "Sous menu",
     ],
     items: [
-      { image: "./images/React.webp", alt: "optimisation", text: "Html / css" },
-      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
+      {
+        image: process.env.PUBLIC_URL + "/images/React.webp",
+        alt: "optimisation",
+        text: "Html / css",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/js.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
     ],
   },
 
   modalDigit: {
     title: "Digitalizerr",
-    imageSrc: "./images/digitalizerrhome.png",
-    imageIcon: "./images/digitalizerricon.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/digitalizerrhome.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/digitalizerricon.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     description:
       "J'ai tenté de développer une maquette de site web de A à Z pour une agence marketing web. J'ai réalisé la maquette sur figma et j'ai développé la maquette sur reactjs pour pouvoir réutiliser des composants.",
@@ -223,17 +295,33 @@ const modalsData = {
       "Responsive",
     ],
     items: [
-      { image: "./images/React.webp", alt: "optimisation", text: "Html / css" },
-      { image: "./images/js.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/figma.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
+      {
+        image: process.env.PUBLIC_URL + "/images/React.webp",
+        alt: "optimisation",
+        text: "Html / css",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/js.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/figma.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
     ],
   },
 
   modalCouvreT: {
     title: "Couvretanche",
-    imageSrc: "./images/couvretanche-homepage.png",
-    imageIcon: "./images/digitalizerricon.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/couvretanche-homepage.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/digitalizerricon.png",
     imageAlt: "Projet Mon Vieux Grimoire",
     description:
       "Création d'un site vitrine Wordpress pour une entreprise de couvreur/zingueur. Mise en place du SEO, création compte googlemybusiness et email professionnel. Installation du Wordpress sur OVH.",
@@ -245,16 +333,28 @@ const modalsData = {
       "Formulaire de contact personnalisé",
     ],
     items: [
-      { image: "./images/wp.png", alt: "optimisation", text: "Html / css" },
-      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/seo.png", alt: "optimisation", text: "Figma" },
+      {
+        image: process.env.PUBLIC_URL + "/images/wp.png",
+        alt: "optimisation",
+        text: "Html / css",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/seo.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
     ],
   },
 
   modalABC: {
     title: "Alliance Batiment Construction",
-    imageSrc: "./images/abchomepage.png",
-    imageIcon: "./images/logoabc.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/abchomepage.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/logoabc.png",
     imageAlt: "Projet ABC Renov",
     description:
       "Site vitrine Wordpress pour une entreprise de BTP à Nice qui souhaite un site dynamique et mise en page reprenant le site abc26.fr . SEO, Googlemybusiness, extension devis en ligne. ",
@@ -266,24 +366,44 @@ const modalsData = {
       "Carousel zoom",
     ],
     items: [
-      { image: "./images/wp.png", alt: "optimisation", text: "Html / css" },
-      { image: "./images/html-5.png", alt: "optimisation", text: "Figma" },
-      { image: "./images/seo.png", alt: "optimisation", text: "Figma" },
+      {
+        image: process.env.PUBLIC_URL + "/images/wp.png",
+        alt: "optimisation",
+        text: "Html / css",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/seo.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
     ],
   },
 
   modalUber: {
     title: "Uber Eats",
-    imageSrc: "./images/uber-homepage.png",
-    imageIcon: "./images/digitalizerricon.png",
+    imageSrc: process.env.PUBLIC_URL + "/images/uber-homepage.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/digitalizerricon.png",
     imageAlt: "Projet Uber",
     linkProject: "https://github.com/SLOURDEL08/UberEats",
     description:
       "Projet réplique ancienne page uber eats, dynamique en Vue Js avec un systeme de filtres fonctionnel directement dans la search bar. Création de page dynamique selon le restaurant avec menu approprié.",
     actions: ["Vue JS", "Filter", "BDD", "Components", "Search Bar"],
     items: [
-      { image: "./images/vue.png", alt: "optimisation", text: "Vue JS" },
-      { image: "./images/js.png", alt: "optimisation", text: "Javascript" },
+      {
+        image: process.env.PUBLIC_URL + "/images/vue.png",
+        alt: "optimisation",
+        text: "Vue JS",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/js.png",
+        alt: "optimisation",
+        text: "Javascript",
+      },
     ],
   },
 };
