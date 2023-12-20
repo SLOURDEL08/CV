@@ -13,46 +13,88 @@ function ScrollSkills({ applyBorderRadius }) {
       ></div>
       <div class="image-list">
         <div>
-          <img src="./images/git.png" alt="logo wordpress" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/git.png"}
+            alt="logo wordpress"
+          />
         </div>
         <div>
-          <img src="./images/js.png" alt="logo javascript" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/js.png"}
+            alt="logo javascript"
+          />
         </div>
         <div>
-          <img src="./images/reactlogo.png" alt="logo tagmanager" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/reactlogo.png"}
+            alt="logo tagmanager"
+          />
         </div>
         <div>
-          <img src="./images/seo.png" alt="logo seo" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/seo.png"}
+            alt="logo seo"
+          />
         </div>
         <div>
-          <img src="./images/git.png" alt="logo git" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/git.png"}
+            alt="logo git"
+          />
         </div>
         <div>
-          <img src="./images/wp.png" alt="logo wordpress" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/wp.png"}
+            alt="logo wordpress"
+          />
         </div>
         <div>
-          <img src="./images/photoshop.png" alt="logo javascript" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/photoshop.png"}
+            alt="logo javascript"
+          />
         </div>
         <div>
-          <img src="./images/figma.png" alt="logo wordpress" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/figma.png"}
+            alt="logo wordpress"
+          />
         </div>
         <div>
-          <img src="./images/tagmanager.webp" alt="logo javascript" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/tagmanager.webp"}
+            alt="logo javascript"
+          />
         </div>
         <div>
-          <img src="./images/reactlogo.png" alt="logo tagmanager" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/reactlogo.png"}
+            alt="logo tagmanager"
+          />
         </div>
         <div>
-          <img src="./images/seo.png" alt="logo seo" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/seo.png"}
+            alt="logo seo"
+          />
         </div>
         <div>
-          <img src="./images/git.png" alt="logo git" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/git.png"}
+            alt="logo git"
+          />
         </div>
         <div>
-          <img src="./images/wp.png" alt="logo wordpress" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/wp.png"}
+            alt="logo wordpress"
+          />
         </div>
         <div>
-          <img src="./images/js.png" alt="logo javascript" />
+          <img
+            src={process.env.PUBLIC_URL + "./images/js.png"}
+            alt="logo javascript"
+          />
         </div>
       </div>
     </div>
