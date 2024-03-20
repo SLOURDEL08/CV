@@ -45,7 +45,7 @@ function Portfolio() {
               <b>Portfolio</b> en ligne
             </h1>
             <div>
-              <span>Mis à jour le : 01/12/2023</span>
+              <span>Mis à jour le : 20/03/2024</span>
               <Link to="mailto:seb.lourdel8@gmail.com">
                 <button className="hire">Contactez moi 👋</button>
               </Link>
