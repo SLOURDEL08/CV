@@ -14,8 +14,8 @@ function About() {
   function downloadPDF() {
     // Créer un élément <a> pour le téléchargement
     const link = document.createElement("a");
-    link.href = "cv_lourdelsebastien2023.pdf"; // Mettez le chemin vers votre fichier PDF ici
-    link.download = "cv_lourdelsebastien2023.pdf"; // Spécifiez le nom du fichier téléchargé
+    link.href = "CV2024.pdf"; // Mettez le chemin vers votre fichier PDF ici
+    link.download = "CV2024.pdf"; // Spécifiez le nom du fichier téléchargé
     link.click();
   }
 

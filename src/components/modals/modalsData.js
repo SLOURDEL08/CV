@@ -406,6 +406,109 @@ const modalsData = {
       },
     ],
   },
+
+  modalDigitoile: {
+    title: "LaDigitoile",
+    imageSrc: process.env.PUBLIC_URL + "/images/digitoilecomplet.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/digitalizerricon.png",
+    imageAlt: "Projet WebAgency LaDigitoile",
+    linkProject: "https://ladigitoile.fr",
+    description:
+      "Projet Développement web / Wordpress , design sur-mesure responsive et fonctionnalité JS/JQUERY, intégration d'une maquette UX/UI.",
+    actions: [
+      "HTML",
+      "CSS",
+      "JS",
+      "JQUERY",
+      "Wordpress",
+      "DROPDOWN",
+      "CAROUSEL",
+    ],
+    items: [
+      {
+        image: process.env.PUBLIC_URL + "/images/wp.png",
+        alt: "optimisation",
+        text: "WORDPRESS",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "HTML",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/figma.png",
+        alt: "optimisation",
+        text: "Figma",
+      },
+
+      {
+        image: process.env.PUBLIC_URL + "/images/js.png",
+        alt: "optimisation",
+        text: "Javascript",
+      },
+    ],
+  },
+  modalSavine: {
+    title: "Paul Savine",
+    imageSrc: process.env.PUBLIC_URL + "/images/savinecomplet.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/savineicon.png",
+    imageAlt: "Projet Paul Savine",
+    linkProject: "https://paulsavine.fr",
+    description:
+      "Site vitrine pour un duo d'architecte et de concepteur de mobilier pharmaceutique, mise en avant de l'activité via du contenu image/texte et un design sur-mesure épuré.",
+    actions: [
+      "Wordpress",
+      "HTML",
+      "CSS",
+      "ELEMENTOR",
+      "FORMINATOR",
+      "CAROUSEL",
+    ],
+    items: [
+      {
+        image: process.env.PUBLIC_URL + "/images/wp.png",
+        alt: "optimisation",
+        text: "Wordpress",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "HTML",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/seo.png",
+        alt: "optimisation",
+        text: "SEO",
+      },
+    ],
+  },
+  modalSirius: {
+    title: "Sirius Sécurité",
+    imageSrc: process.env.PUBLIC_URL + "/images/siriuscomplet.png",
+    imageIcon: process.env.PUBLIC_URL + "/images/siriusicon.png",
+    imageAlt: "Projet Sirius Sécurité",
+    linkProject: "https://siriussecurite.fr",
+    description:
+      "Site vitrine avec design sur mesure pour une société de sécurité privée, besoin d'un contenu clair, simple, call to action et formulaire de contact présent fréquemment.",
+    actions: ["Wordpress", "HTML", "CSS", "ELEMENTOR", "CAROUSEL"],
+    items: [
+      {
+        image: process.env.PUBLIC_URL + "/images/wp.png",
+        alt: "optimisation",
+        text: "Wordpress",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/html-5.png",
+        alt: "optimisation",
+        text: "HTML",
+      },
+      {
+        image: process.env.PUBLIC_URL + "/images/seo.png",
+        alt: "optimisation",
+        text: "SEO",
+      },
+    ],
+  },
 };
 
 export default modalsData;

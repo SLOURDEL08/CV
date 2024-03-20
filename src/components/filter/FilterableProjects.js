@@ -90,6 +90,27 @@ const FilterableProjects = () => {
       title: "Uber Eats",
       modalName: "modalUber",
     },
+    {
+      id: 13,
+      category: "WordPress",
+      image: process.env.PUBLIC_URL + "/images/savineprev.png",
+      title: "Paul Savine",
+      modalName: "modalSavine",
+    },
+    {
+      id: 14,
+      category: "WordPress",
+      image: process.env.PUBLIC_URL + "/images/siriusprev.png",
+      title: "Sirius Sécurité",
+      modalName: "modalSirius",
+    },
+    {
+      id: 15,
+      category: "WordPress",
+      image: process.env.PUBLIC_URL + "/images/digitoileprev.png",
+      title: "LaDigitoile - sur-mesure",
+      modalName: "modalDigitoile",
+    },
   ];
 
   const handleFilter = (category) => {
